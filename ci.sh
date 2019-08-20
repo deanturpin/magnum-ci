@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The repos we're interested in
-readonly repos=(tony bigo cpp cerberus)
+readonly repos=(tony bigo cpp cerberus dft handt primes latency)
 
 # Remove any cruft
 tmp=tmp

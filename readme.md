@@ -42,6 +42,48 @@ Total Physical Source Lines of Code (SLOC)                = 422
 Total Estimated Cost to Develop                           = $ 10,920
 ```
 
+# dft
+* PASS
+* See build [artefacts](artefacts/dft)
+```
+sh:             295 (66.14%)
+cpp:             87 (19.51%)
+perl:            64 (14.35%)
+Total Physical Source Lines of Code (SLOC)                = 446
+Total Estimated Cost to Develop                           = $ 11,573
+```
+
+# handt
+* PASS
+* See build [artefacts](artefacts/handt)
+```
+cpp:            558 (89.00%)
+python:          69 (11.00%)
+Total Physical Source Lines of Code (SLOC)                = 627
+Total Estimated Cost to Develop                           = $ 16,549
+```
+
+# primes
+* PASS
+* See build [artefacts](artefacts/primes)
+```
+sh:             277 (59.31%)
+cpp:            126 (26.98%)
+perl:            64 (13.70%)
+Total Physical Source Lines of Code (SLOC)                = 467
+Total Estimated Cost to Develop                           = $ 12,146
+```
+
+# latency
+* PASS
+* See build [artefacts](artefacts/latency)
+```
+sh:             282 (81.50%)
+perl:            64 (18.50%)
+Total Physical Source Lines of Code (SLOC)                = 346
+Total Estimated Cost to Develop                           = $ 8,865
+```
+
 ---
 # Tech stack
 **gcc-9**

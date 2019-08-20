@@ -1,0 +1,9 @@
+make[1]: Entering directory '/home/dean/magnum-ci/tmp/primes'
+mkdir -p tmp
+touch tmp/primes.md
+g++-8 -o tmp/primes.o primes.cpp --std=c++17 --all-warnings --extra-warnings --pedantic-errors -Werror -Wshadow -Wfloat-equal -Weffc++ -Wdelete-non-virtual-dtor -O3
+tmp/primes.o < tmp/primes.md > tmp/_primes.md
+0 existing primes
+3245 new primes
+mv tmp/_primes.md tmp/primes.md
+make[1]: Leaving directory '/home/dean/magnum-ci/tmp/primes'
