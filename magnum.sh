@@ -9,7 +9,7 @@ for app in gcc-9 firefox make bash; do
 	echo '```'
 
 done
-echo "## Linux kernel"
+echo "**Linux kernel**"
 echo '```'
 uname -a
 echo '```'

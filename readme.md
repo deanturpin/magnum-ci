@@ -1,8 +1,3 @@
----
-title: This is my title
-layout: post
----
-
 # Tech stack
 **gcc-9**
 ```
@@ -34,7 +29,7 @@ License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
-## Linux kernel
+**Linux kernel**
 ```
 Linux laptop 5.0.0-25-generic #26-Ubuntu SMP Thu Aug 1 12:04:58 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ```
