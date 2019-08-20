@@ -1,0 +1,17 @@
+make[1]: Entering directory '/home/dean/magnum-ci/tmp/cpp'
+mkdir -p tmp
+make --silent -j 4  tmp/exchange.o  tmp/cryptography.o  tmp/exceptions-in-destructors.o  tmp/exceptions-small-ram.o  tmp/default_constructor_only.o  tmp/multiple_inheritance_diamond.o  tmp/templated-lambdas.o  tmp/mutable_keyword.o  tmp/exceptions2.o  tmp/nonmember_begin_and_end.o  tmp/list-erase.o  tmp/function_pointers.o  tmp/friends.o  tmp/classes11.o  tmp/pimpl.o  tmp/notes.o  tmp/containers.o  tmp/for_loops.o  tmp/boolalpha_read.o  tmp/method_chaining.o  tmp/init_lists.o  tmp/istream_iterator.o  tmp/parallel_algorithms.o  tmp/classes.o  tmp/string_manipulation.o  tmp/auto_refs.o  tmp/map_index.o  tmp/pointers.o  tmp/modulus.o  tmp/tokenise.o  tmp/factorial.o  tmp/template-nesting.o  tmp/parallel-exec.o  tmp/spaceship.o  tmp/sales.o  tmp/unicode.o  tmp/fallthrough.o  tmp/for_loop_index.o  tmp/dirty_cache.o  tmp/virtual3.o  tmp/wide_iterators.o  tmp/regular_expressions.o  tmp/const_pointers.o  tmp/file_read_write.o  tmp/implicit-constructors.o  tmp/align.o  tmp/pop_front_hack.o  tmp/templates.o  tmp/async.o  tmp/vector_initialisation.o  tmp/algorithm.o  tmp/ifs.o  tmp/vector_resize.o  tmp/ratios.o  tmp/vector_capacity.o  tmp/class_war.o  tmp/templates_and_auto.o  tmp/map_filter_reduce.o  tmp/koenig.o  tmp/generate.o  tmp/return_value_optimisation.o  tmp/user_literals.o  tmp/worker_pool.o  tmp/sets.o  tmp/rvalue-references.o  tmp/optional.o  tmp/relationalOperators.o  tmp/cycles.o  tmp/only_shallow.o  tmp/fib.o  tmp/virtual_base_class.o  tmp/move-range.o  tmp/multimap.o  tmp/rule_of_five.o  tmp/numeric.o  tmp/static.o  tmp/functor.o  tmp/shared_pointer.o  tmp/const_vector.o  tmp/array.o  tmp/floating_point.o  tmp/recursive.o  tmp/uncaught_exceptions.o  tmp/auto_main.o  tmp/ternary_operator.o  tmp/multiple_inheritance.o  tmp/maybe_unused.o  tmp/filesystem.o  tmp/bitwise_operators.o  tmp/negative.o  tmp/partition.o  tmp/structures_and_unions.o  tmp/any.o  tmp/perms.o  tmp/list_init.o  tmp/virtual1.o  tmp/lambda_functions.o  tmp/segments.o  tmp/precision.o  tmp/casting.o  tmp/widechars.o  tmp/vector_storage.o  tmp/mutex.o  tmp/size_of_classes.o  tmp/classes14.o  tmp/exceptions.o  tmp/lambda_identity.o  tmp/narrowing.o  tmp/getline.o  tmp/non_virtual.o  tmp/complex.o  tmp/classes_default_methods.o  tmp/classes_construction_order.o  tmp/unique_pointer.o  tmp/tutorials.o  tmp/quoted.o  tmp/strongly_typed_enums.o  tmp/virtual2.o
+make[2]: Entering directory '/home/dean/magnum-ci/tmp/cpp'
+4 threads
+100013 size
+25004 elements per thread
+start
+done
+start
+done
+start
+done
+start
+done
+make[2]: Leaving directory '/home/dean/magnum-ci/tmp/cpp'
+make[1]: Leaving directory '/home/dean/magnum-ci/tmp/cpp'
