@@ -55,14 +55,14 @@ Total Physical Source Lines of Code (SLOC)                = 422
 Total Estimated Cost to Develop                           = $ 10,920
 ```
 ## cpp
-* Build fail
+* Build success
 ```
 Totals grouped by language (dominant language first):
-cpp:           2397 (87.55%)
+cpp:           2396 (87.54%)
 sh:             277 (10.12%)
 perl:            64 (2.34%)
-Total Physical Source Lines of Code (SLOC)                = 2,738
-Total Estimated Cost to Develop                           = $ 77,794
+Total Physical Source Lines of Code (SLOC)                = 2,737
+Total Estimated Cost to Develop                           = $ 77,764
 ```
 ## dft
 * Build success
@@ -104,39 +104,39 @@ Exchanges in use: Coinbase
 ```
 dff2fa3 Use native tuning
 ```
-Generated Tue Aug 20 14:46:26 2019
+Generated Tue Aug 20 16:08:24 2019
 
 * 4 threads
 * 54 currency pairs
 * 2,250 strategies
-* 220,635,038 backtests
+* 220,633,412 backtests
 
 # Current prospects
 
 Strategy|Pair|Exchange|Perf|Spot|Jitter %
 ---|---|---|---|---
-Supine-Pomeranian-8|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|5/1|10.19|0.737115
-Straddling-Havanese-13|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/0|10.19|0.737115
-Straddling-Pomeranian-4|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/1|10.19|0.737115
-Straddling-Griffon-10|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/2|10.19|0.737115
-Straddling-Havanese-11|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/2|10.19|0.737115
-Straddling-Havanese-12|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/2|10.19|0.737115
-Darting-Affenpinscher-5|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|3/2|0.000563|0.591285
-Indifferent-Affenpinscher-5|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|3/2|0.000563|0.591285
-Straddling-Cricket-7|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|1/0|10.19|0.737115
-Straddling-Havanese-14|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|1/0|10.19|0.737115
-Straddling-Havanese-15|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|1/0|10.19|0.737115
+Supine-Pomeranian-8|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|5/1|10.17|0.737412
+Straddling-Havanese-13|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/0|10.17|0.737412
+Straddling-Pomeranian-4|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/1|10.17|0.737412
+Straddling-Griffon-10|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/2|10.17|0.737412
+Straddling-Havanese-11|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/2|10.17|0.737412
+Straddling-Havanese-12|[REP-USD](https://www.cryptocompare.com/coins/REP)|Coinbase|3/2|10.17|0.737412
+Darting-Affenpinscher-5|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|3/2|0.000554|0.590831
+Indifferent-Affenpinscher-5|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|3/2|0.000554|0.590831
+Darting-Pomeranian-5|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|4/3|0.000554|0.590831
+Darting-Affenpinscher-4|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|5/4|0.000554|0.590831
+Indifferent-Affenpinscher-4|[ETC-BTC](https://www.cryptocompare.com/coins/ETC)|Coinbase|5/4|0.000554|0.590831
 
 # 80-day backtest
 
 Strategy|Pair|Exchange|Perf|Spot|Jitter %
 ---|---|---|---|---
-Slouching-Pomeranian-7|[GNT-USDC](https://www.cryptocompare.com/coins/GNT)|Coinbase|8/1|0.05161|0.798249
-Indifferent-Griffon-12|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1692|0.693277
-Indifferent-Norrbottenspets-11|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1692|0.693277
-Indifferent-Shiba Inu-11|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1692|0.693277
-Slouching-Griffon-12|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1692|0.693277
-Slouching-Havanese-12|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1692|0.693277
+Slouching-Pomeranian-7|[GNT-USDC](https://www.cryptocompare.com/coins/GNT)|Coinbase|8/1|0.05094|0.798041
+Indifferent-Griffon-12|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1689|0.693817
+Indifferent-Norrbottenspets-11|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1689|0.693817
+Indifferent-Shiba Inu-11|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1689|0.693817
+Slouching-Griffon-12|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1689|0.693817
+Slouching-Havanese-12|[ZRX-USD](https://www.cryptocompare.com/coins/ZRX)|Coinbase|7/0|0.1689|0.693817
 * Build success
 ```
 Totals grouped by language (dominant language first):

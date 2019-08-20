@@ -3,7 +3,6 @@ repos := cerberus cpp dft tony bigo handt
 
 # Create a list of installation dirs
 repo-dirs := $(foreach repo, $(repos), repos/$(repo))
-build-dirs := $(foreach repo, $(repos), build/$(repo))
 
 # Clone and build all projects in parallel
 all: clone stats

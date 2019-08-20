@@ -20,7 +20,7 @@ for dir in repos/*; do
 	# Project title
 	repo=$(basename $dir)
 	echo "## $repo"
-	time make --silent --directory=$dir && echo "* Build success" || echo "* Build fail"
+	make --silent --directory=$dir && echo "* Build success" || echo "* Build fail"
 
 	# Project info
 	echo '```'
