@@ -1,10 +1,9 @@
 #!/bin/bash
 
-# Tech stack
 echo "# Tech stack"
 for app in gcc-9 firefox make bash; do
 
-	echo "## $app"
+	echo "**$app**"
 	echo '```'
 	$app --version
 	echo '```'
@@ -15,12 +14,12 @@ echo '```'
 uname -a
 echo '```'
 
-# sloccount
+echo "# Lines of code and cost"
 for dir in repos/*; do
 
-	# Title and links to repo
+	# Project title
 	repo=$(basename $dir)
-	echo "# $repo"
+	echo "**$repo**"
 
 	# Project info
 	echo '```'
