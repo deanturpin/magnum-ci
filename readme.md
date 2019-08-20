@@ -8,6 +8,7 @@ cpp:             59 (14.75%)
 Total Physical Source Lines of Code (SLOC)                = 400
 Total Estimated Cost to Develop                           = $ 10,323
 ```
+
 # bigo
 * PASS
 * See build [artefacts](artefacts/bigo)
@@ -18,6 +19,7 @@ perl:            64 (14.75%)
 Total Physical Source Lines of Code (SLOC)                = 434
 Total Estimated Cost to Develop                           = $ 11,246
 ```
+
 # cpp
 * PASS
 * See build [artefacts](artefacts/cpp)
@@ -28,6 +30,7 @@ perl:            64 (2.34%)
 Total Physical Source Lines of Code (SLOC)                = 2,737
 Total Estimated Cost to Develop                           = $ 77,764
 ```
+
 # cerberus
 * PASS
 * See build [artefacts](artefacts/cerberus)
@@ -38,6 +41,7 @@ perl:            64 (15.17%)
 Total Physical Source Lines of Code (SLOC)                = 422
 Total Estimated Cost to Develop                           = $ 10,920
 ```
+
 ---
 # Tech stack
 **gcc-9**

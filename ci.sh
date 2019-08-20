@@ -38,6 +38,7 @@ for repo in ${repos[@]}; do
  	sloccount $subdir | grep -E \
 		'Total Estimated Cost to Develop|Total Physical Source Lines of Code|^[^\ ]+:'
  	echo '```'
+	echo
 
 done
 
