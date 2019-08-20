@@ -1,15 +1,18 @@
 # Repos we're managing
 repos := cerberus cpp dft tony bigo
 
-# Tech stack
-gcc := g++-10
-
 # Create a list of installation dirs
 repo-dirs := $(foreach repo, $(repos), repos/$(repo))
 build-dirs := $(foreach repo, $(repos), build/$(repo))
 
 # Clone and build all projects in parallel
-all: clone build
+all: clone build techstack sloccount
+
+techstack:
+	@g++-9 --version
+
+sloccount:
+	./magnum.sh
 
 clone:
 	$(MAKE) -j $(shell nproc) $(repo-dirs)
