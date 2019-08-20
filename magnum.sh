@@ -1,10 +1,16 @@
 #!/bin/bash
 
 # sloccount
-for repo in repos/*; do
-	echo "# $(basename $repo)"
+for dir in repos/*; do
+
+	# Title and links to repo
+	repo=$(basename $dir)
+	echo "# $repo"
+	echo "[$repo]($dir)"
+
+	# Project info
 	echo '```'
-	sloccount $repo | grep -E \
-		'Total Estimated Cost to Develop|Total Physical Source Lines of Code'
+	sloccount $dir | grep -E \
+		'Total Estimated Cost to Develop|Total Physical Source Lines of Code|:'
 	echo '```'
 done

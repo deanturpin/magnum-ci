@@ -1,5 +1,5 @@
 # Repos we're managing
-repos := cerberus cpp dft tony bigo
+repos := cerberus cpp dft tony bigo handt KEYnote
 
 # Create a list of installation dirs
 repo-dirs := $(foreach repo, $(repos), repos/$(repo))
@@ -12,7 +12,7 @@ techstack:
 	@g++-9 --version
 
 sloccount:
-	./magnum.sh
+	./magnum.sh > readme.md
 
 clone:
 	$(MAKE) -j $(shell nproc) $(repo-dirs)
