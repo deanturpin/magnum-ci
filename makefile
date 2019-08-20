@@ -1,5 +1,6 @@
 # Repos we're managing
-repos := cerberus cpp dft tony bigo handt
+# repos := cerberus cpp dft tony bigo handt
+repos := cpp tony
 
 # Create a list of installation dirs
 repo-dirs := $(foreach repo, $(repos), repos/$(repo))
