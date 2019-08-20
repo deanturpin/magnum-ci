@@ -15,10 +15,10 @@
 # echo '```'
 
 # The repos we're interested in
-readonly repos=(cpp tony cerberus dft bigo handt)
+readonly repos=(tony bigo)
 
 tmp=$(mktemp --directory)
->&2 echo Create working directory $tmp
+echo Create working directory $tmp >&2
 
 # Clone, build and extract the artefacts from each repo
 for repo in ${repos[@]}; do
@@ -26,15 +26,19 @@ for repo in ${repos[@]}; do
 	subdir=$tmp/$repo
 
 	# Clone
-	echo $repo
 	echo Cloning $repo into $subdir >&2
-	git clone --quiet --depth=1  https://github.com/deanturpin/$repo $subdir
+	git clone --depth=1  https://github.com/deanturpin/$repo $subdir
+
+	# Build
+	echo Get artefacts from $subdir >&2
+	pushd $subdir >&2
+
+	echo "# $repo"
+	make --silent && echo PASS || echo FAIL
 
 	# Get artefacts
-	>&2 echo Get artefacts from $subdir
-	pushd $subdir >& /dev/null
 	git status --porcelain
-	popd >& /dev/null
+	popd >&2
 
 	# Line count and cost
  	echo '```'
@@ -44,7 +48,7 @@ for repo in ${repos[@]}; do
 
 done
 
-echo Remove working directory $tmp
+# echo Remove working directory $tmp
 rm -rf $tmp
 
 # echo "# Lines of code and cost"
