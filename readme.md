@@ -1,3 +1,8 @@
+---
+title: This is my title
+layout: post
+---
+
 # Tech stack
 **gcc-9**
 ```
