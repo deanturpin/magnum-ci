@@ -1,3 +1,5 @@
+[sample](artefacts/sample.md)
+
 # Tech stack
 **gcc-9**
 ```
