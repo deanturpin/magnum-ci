@@ -17,30 +17,34 @@
 # The repos we're interested in
 readonly repos=(cpp tony cerberus dft bigo handt)
 
+tmp=$(mktemp --directory)
+echo Create working directory $tmp
+
 # Clone, build and extract the artefacts from each repo
 for repo in ${repos[@]}; do
 
-	# Remove any cruft
-	[[ -e tmp ]] && rm -rf tmp
+	subdir=$tmp/$repo
 
 	# Clone
-	echo $repo
-	git clone --depth=1  https://github.com/deanturpin/$repo tmp
+	echo Cloning $repo into $subdir
+	git clone --quiet --depth=1  https://github.com/deanturpin/$repo $subdir
 
 	# Get artefacts
-	pushd tmp
+	echo Get artefacts from $subdir
+	pushd $subdir > /dev/null
 	git status --porcelain
-	popd
+	popd > /dev/null
 
 	# Line count and cost
  	echo '```'
- 	sloccount tmp | grep -E \
- 		'Total Estimated Cost to Develop|Total Physical Source Lines of Code|:'
+ 	sloccount $subdir | grep -E \
+		'Total Estimated Cost to Develop|Total Physical Source Lines of Code|:'
  	echo '```'
 
-	# Tidy up
-	rm -rf tmp
 done
+
+echo Remove working directory $tmp
+rm -rf $tmp
 
 # echo "# Lines of code and cost"
 # for dir in repos/*; do
