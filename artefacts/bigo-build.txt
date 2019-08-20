@@ -1,0 +1,3 @@
+make[1]: Entering directory '/home/dean/turpin-ci/tmp/bigo'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/dean/turpin-ci/tmp/bigo'

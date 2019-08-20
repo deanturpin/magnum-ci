@@ -17,7 +17,7 @@
 # The repos we're interested in
 readonly repos=(tony bigo)
 
-tmp=$(mktemp --directory)
+tmp=tmp
 echo Create working directory $tmp >&2
 
 # Clone, build and extract the artefacts from each repo
@@ -34,10 +34,13 @@ for repo in ${repos[@]}; do
 	pushd $subdir >&2
 
 	echo "# $repo"
-	make --silent && echo PASS || echo FAIL
+
+	artefacts=../../artefacts
 
 	# Get artefacts
-	git status --porcelain
+	make >& $artefacts/$repo-build.txt && echo PASS || echo FAIL
+	git status --porcelain > $artefacts/$repo-files.txt
+	echo "See build [artefacts]($artefacts)."
 	popd >&2
 
 	# Line count and cost
