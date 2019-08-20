@@ -1,6 +1,6 @@
-cpp
-~/turpin-ci/tmp ~/turpin-ci
-~/turpin-ci
+Create working directory /tmp/tmp.rUUjHmymIh
+Cloning cpp into /tmp/tmp.rUUjHmymIh/cpp
+Get artefacts from /tmp/tmp.rUUjHmymIh/cpp
 ```
 Totals grouped by language (dominant language first):
 cpp:           2396 (87.54%)
@@ -9,9 +9,8 @@ perl:            64 (2.34%)
 Total Physical Source Lines of Code (SLOC)                = 2,737
 Total Estimated Cost to Develop                           = $ 77,764
 ```
-tony
-~/turpin-ci/tmp ~/turpin-ci
-~/turpin-ci
+Cloning tony into /tmp/tmp.rUUjHmymIh/tony
+Get artefacts from /tmp/tmp.rUUjHmymIh/tony
 ```
 Totals grouped by language (dominant language first):
 sh:             277 (69.25%)
@@ -20,9 +19,8 @@ cpp:             59 (14.75%)
 Total Physical Source Lines of Code (SLOC)                = 400
 Total Estimated Cost to Develop                           = $ 10,323
 ```
-cerberus
-~/turpin-ci/tmp ~/turpin-ci
-~/turpin-ci
+Cloning cerberus into /tmp/tmp.rUUjHmymIh/cerberus
+Get artefacts from /tmp/tmp.rUUjHmymIh/cerberus
 ```
 Totals grouped by language (dominant language first):
 sh:             277 (65.64%)
@@ -31,9 +29,8 @@ perl:            64 (15.17%)
 Total Physical Source Lines of Code (SLOC)                = 422
 Total Estimated Cost to Develop                           = $ 10,920
 ```
-dft
-~/turpin-ci/tmp ~/turpin-ci
-~/turpin-ci
+Cloning dft into /tmp/tmp.rUUjHmymIh/dft
+Get artefacts from /tmp/tmp.rUUjHmymIh/dft
 ```
 Totals grouped by language (dominant language first):
 sh:             295 (66.14%)
@@ -42,9 +39,8 @@ perl:            64 (14.35%)
 Total Physical Source Lines of Code (SLOC)                = 446
 Total Estimated Cost to Develop                           = $ 11,573
 ```
-bigo
-~/turpin-ci/tmp ~/turpin-ci
-~/turpin-ci
+Cloning bigo into /tmp/tmp.rUUjHmymIh/bigo
+Get artefacts from /tmp/tmp.rUUjHmymIh/bigo
 ```
 Totals grouped by language (dominant language first):
 sh:             277 (63.82%)
@@ -53,9 +49,8 @@ perl:            64 (14.75%)
 Total Physical Source Lines of Code (SLOC)                = 434
 Total Estimated Cost to Develop                           = $ 11,246
 ```
-handt
-~/turpin-ci/tmp ~/turpin-ci
-~/turpin-ci
+Cloning handt into /tmp/tmp.rUUjHmymIh/handt
+Get artefacts from /tmp/tmp.rUUjHmymIh/handt
 ```
 Totals grouped by language (dominant language first):
 cpp:            558 (57.64%)
@@ -65,3 +60,4 @@ perl:            64 (6.61%)
 Total Physical Source Lines of Code (SLOC)                = 968
 Total Estimated Cost to Develop                           = $ 26,110
 ```
+Remove working directory /tmp/tmp.rUUjHmymIh

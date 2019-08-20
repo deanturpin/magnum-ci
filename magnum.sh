@@ -31,9 +31,9 @@ for repo in ${repos[@]}; do
 
 	# Get artefacts
 	echo Get artefacts from $subdir
-	pushd $subdir > /dev/null
+	pushd $subdir >& /dev/null
 	git status --porcelain
-	popd > /dev/null
+	popd >& /dev/null
 
 	# Line count and cost
  	echo '```'
