@@ -1,2 +1,2 @@
 all:
-	./magnum.sh > readme.md
+	./ci.sh > readme.md

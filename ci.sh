@@ -27,26 +27,27 @@ for repo in ${repos[@]}; do
 
 	# Clone
 	echo Cloning $repo into $subdir >&2
-	git clone --depth=1  https://github.com/deanturpin/$repo $subdir
+	git clone --depth=1 https://github.com/deanturpin/$repo $subdir
 
 	# Build
 	echo Get artefacts from $subdir >&2
-	pushd $subdir >&2
+	pushd $subdir > /dev/null
 
+	# Make directory for build artefacts
 	echo "# $repo"
-
-	artefacts=../../artefacts
+	artefacts=../../artefacts/$repo
+	mkdir -p $artefacts
 
 	# Get artefacts
-	make >& $artefacts/$repo-build.txt && echo PASS || echo FAIL
-	git status --porcelain > $artefacts/$repo-files.txt
-	echo "See build [artefacts]($artefacts)."
-	popd >&2
+	make >& $artefacts/build.txt && echo "* PASS" || echo "* FAIL"
+	git status --porcelain > $artefacts/files.txt
+	echo "* See build [artefacts](artefacts)"
+	popd > /dev/null
 
 	# Line count and cost
  	echo '```'
  	sloccount $subdir | grep -E \
-		'Total Estimated Cost to Develop|Total Physical Source Lines of Code|:'
+		'Total Estimated Cost to Develop|Total Physical Source Lines of Code|^[^\ ]+:'
  	echo '```'
 
 done
