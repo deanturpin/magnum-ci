@@ -1,5 +1,17 @@
+# Tech stack
+## gcc-9
+```
+gcc-9 (Ubuntu 9.1.0-2ubuntu2~19.04) 9.1.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+```
+## firefox
+```
+Mozilla Firefox 68.0.2
+```
 # bigo
-[bigo](repos/bigo)
 ```
 Totals grouped by language (dominant language first):
 sh:             277 (63.82%)
@@ -9,7 +21,6 @@ Total Physical Source Lines of Code (SLOC)                = 434
 Total Estimated Cost to Develop                           = $ 11,246
 ```
 # cerberus
-[cerberus](repos/cerberus)
 ```
 Totals grouped by language (dominant language first):
 sh:             277 (65.64%)
@@ -19,7 +30,6 @@ Total Physical Source Lines of Code (SLOC)                = 422
 Total Estimated Cost to Develop                           = $ 10,920
 ```
 # cpp
-[cpp](repos/cpp)
 ```
 Totals grouped by language (dominant language first):
 cpp:           2396 (87.54%)
@@ -29,7 +39,6 @@ Total Physical Source Lines of Code (SLOC)                = 2,737
 Total Estimated Cost to Develop                           = $ 77,764
 ```
 # dft
-[dft](repos/dft)
 ```
 Totals grouped by language (dominant language first):
 sh:             295 (66.14%)
@@ -39,7 +48,6 @@ Total Physical Source Lines of Code (SLOC)                = 446
 Total Estimated Cost to Develop                           = $ 11,573
 ```
 # handt
-[handt](repos/handt)
 ```
 Totals grouped by language (dominant language first):
 cpp:            558 (89.00%)
@@ -48,7 +56,6 @@ Total Physical Source Lines of Code (SLOC)                = 627
 Total Estimated Cost to Develop                           = $ 16,549
 ```
 # KEYnote
-[KEYnote](repos/KEYnote)
 ```
 Totals grouped by language (dominant language first):
 cpp:            451 (56.94%)
@@ -58,7 +65,6 @@ Total Physical Source Lines of Code (SLOC)                = 792
 Total Estimated Cost to Develop                           = $ 21,150
 ```
 # tony
-[tony](repos/tony)
 ```
 Totals grouped by language (dominant language first):
 sh:             277 (69.25%)

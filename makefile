@@ -6,12 +6,9 @@ repo-dirs := $(foreach repo, $(repos), repos/$(repo))
 build-dirs := $(foreach repo, $(repos), build/$(repo))
 
 # Clone and build all projects in parallel
-all: clone build techstack sloccount
+all: clone build stats
 
-techstack:
-	@g++-9 --version
-
-sloccount:
+stats:
 	./magnum.sh > readme.md
 
 clone:
