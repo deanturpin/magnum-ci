@@ -2,7 +2,7 @@
 
 # Tech stack
 echo "# Tech stack"
-for app in gcc-9 firefox; do
+for app in gcc-9 firefox make bash; do
 
 	echo "## $app"
 	echo '```'
@@ -10,6 +10,10 @@ for app in gcc-9 firefox; do
 	echo '```'
 
 done
+echo "## Linux kernel"
+echo '```'
+uname -a
+echo '```'
 
 # sloccount
 for dir in repos/*; do
