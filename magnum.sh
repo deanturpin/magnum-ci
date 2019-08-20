@@ -18,7 +18,7 @@
 readonly repos=(cpp tony cerberus dft bigo handt)
 
 tmp=$(mktemp --directory)
-echo Create working directory $tmp
+>&2 echo Create working directory $tmp
 
 # Clone, build and extract the artefacts from each repo
 for repo in ${repos[@]}; do
@@ -26,11 +26,12 @@ for repo in ${repos[@]}; do
 	subdir=$tmp/$repo
 
 	# Clone
-	echo Cloning $repo into $subdir
+	echo $repo
+	echo Cloning $repo into $subdir >&2
 	git clone --quiet --depth=1  https://github.com/deanturpin/$repo $subdir
 
 	# Get artefacts
-	echo Get artefacts from $subdir
+	>&2 echo Get artefacts from $subdir
 	pushd $subdir >& /dev/null
 	git status --porcelain
 	popd >& /dev/null
