@@ -41,7 +41,7 @@ for repo in ${repos[@]}; do
 	# Get artefacts
 	make >& $artefacts/build.txt && echo "* PASS" || echo "* FAIL"
 	git status --porcelain > $artefacts/files.txt
-	echo "* See build [artefacts](artefacts)"
+	echo "* See build [artefacts](artefacts/$repo)"
 	popd > /dev/null
 
 	# Line count and cost

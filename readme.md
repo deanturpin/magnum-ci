@@ -1,6 +1,6 @@
 # tony
 * PASS
-* See build [artefacts](artefacts)
+* See build [artefacts](artefacts/tony)
 ```
 sh:             277 (69.25%)
 perl:            64 (16.00%)
@@ -10,7 +10,7 @@ Total Estimated Cost to Develop                           = $ 10,323
 ```
 # bigo
 * PASS
-* See build [artefacts](artefacts)
+* See build [artefacts](artefacts/bigo)
 ```
 sh:             277 (63.82%)
 cpp:             93 (21.43%)
