@@ -1,4 +1,7 @@
 all:
+	# Get any updates
+	git pull
+
 	# Run Magnum CI
 	./ci.sh > readme.md 2| tee build.txt
 
