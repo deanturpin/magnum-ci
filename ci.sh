@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The repos we're interested in
-readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes)
+readonly repos=(tony bigo cpp cerberus dft primes)
 
 # Remove any cruft
 tmp=tmp
@@ -21,14 +21,14 @@ for repo in ${repos[@]}; do
 	# Make directory for build artefacts
 	artefacts=../../artefacts/$repo
 
-	# Move to the repo dir, Build the project and report success
+	# Move to the repo dir, build the project and report success
 	echo "# $repo"
 	pushd $subdir > /dev/null
 	mkdir -p $artefacts
 	echo Build $repo >&2
-	make >& $artefacts/build.txt && echo "* PASS" || echo "* FAIL"
+	make >&2 && echo "* PASS" || echo "* FAIL"
 
-	# Build artefacts
+	# Get build artefacts
 	echo Get artefacts from $subdir >&2
 	git status --porcelain > $artefacts/files.txt
 	echo "* See build [artefacts](artefacts/$repo)"

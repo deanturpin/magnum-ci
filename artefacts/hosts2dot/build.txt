@@ -1,35 +1,48 @@
-make[1]: Entering directory '/home/dean/magnum-ci/tmp/hosts2dot'
+make[1]: Entering directory '/home/djturpin/magnum-ci/tmp/hosts2dot'
 ./hosts2dot.sh < hosts | tee topology.dot
 strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
-soy_yo [label="laptop"]
-graph [label="./hosts2dot.sh - Wed 21 Aug 11:21:22 BST 2019" labelloc=top labeljust=left]
-"127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
-soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
+soy_yo [label="magnum-ci"]
+graph [label="./hosts2dot.sh - Wed Aug 21 12:28:29 UTC 2019" labelloc=top labeljust=left]
+"127.0.0.1 localhost # for local people" [fillcolor=red fontcolor=white]
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"127.0.0.1 localhost # for local people"
 "duckduckgo.com" [fillcolor=red fontcolor=white]
-soy_yo--"duckduckgo.com"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"duckduckgo.com"
 "infinityfoods.coop # Organic food" [fillcolor=red fontcolor=white]
-soy_yo--"infinityfoods.coop # Organic food"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"infinityfoods.coop # Organic food"
 "silobrighton.com # RIP :(" [fillcolor=red fontcolor=white]
-soy_yo--"silobrighton.com # RIP :("
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"silobrighton.com # RIP :("
 "rate.sx # Command line crypto ticker" [fillcolor=red fontcolor=white]
-soy_yo--"cheat.sh"--"rate.sx # Command line crypto ticker"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"rate.sx # Command line crypto ticker"
 "fixer.io # Fiat currencies" [fillcolor=red fontcolor=white]
-soy_yo--"c9.a7.559e.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"fixer.io # Fiat currencies"
 "travis-ci.org # Travis CI" [fillcolor=red fontcolor=white]
-soy_yo--"travis-ci.org # Travis CI"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"travis-ci.org # Travis CI"
 "turpin.dev # My website" [fillcolor=red fontcolor=white]
-soy_yo--"turpin.dev # My website"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"turpin.dev # My website"
 "tomahawktechnology.com # Nino's website" [fillcolor=red fontcolor=white]
-soy_yo--"tomahawktechnology.com # Nino's website"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"tomahawktechnology.com # Nino's website"
 "brignull.com # Harry's website" [fillcolor=red fontcolor=white]
-soy_yo--"brignull.com # Harry's website"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"brignull.com # Harry's website"
 "7thsensedesign.com" [fillcolor=red fontcolor=white]
-soy_yo--"ds8722.dedicated.turbodns.co.uk"--"7thsensedesign.com"
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
+"7thsensedesign.com"
 "" [fillcolor=red fontcolor=white]
-soy_yo--Usage: tracepath [-4] [-6] [-n] [-b] [-l <len>] [-p port] <destination>
+soy_yo--./hosts2dot.sh: line 29: tracepath: command not found
 ""
 }
 dot -T svg topology.dot > topology.svg
-make[1]: Leaving directory '/home/dean/magnum-ci/tmp/hosts2dot'
+/bin/sh: 1: dot: not found
+make[1]: *** [makefile:8: topology.svg] Error 127
+make[1]: Leaving directory '/home/djturpin/magnum-ci/tmp/hosts2dot'

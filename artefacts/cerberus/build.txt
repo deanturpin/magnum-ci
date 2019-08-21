@@ -1,72 +1,35 @@
-make[1]: Entering directory '/home/dean/magnum-ci/tmp/cerberus'
+make[1]: Entering directory '/home/djturpin/magnum-ci/tmp/cerberus'
 mkdir -p tmp
 ./cerberus.py | tee tmp/readme.md
-* 142 currency pairs listed across all exchanges
-* 4 whitelisted exchanges
-* Prices fetched using the [CryptoCompare API](https://min-api.cryptocompare.com/)
-
-# GBP
-* Entry points 20
-* Permutations 56
-
-3.047552510883839|GBP|Coinroom|BTC|DSX|GBP|
-2.709163771856625|GBP|Coinroom|BTC|Coinbase|GBP|
-2.55045871559633|GBP|Coinroom|ETH|DSX|GBP|
-2.081089304731477|GBP|Coinroom|BCH|DSX|GBP|
-1.8772250114103148|GBP|Coinroom|BCH|Coinbase|GBP|
-1.8760433258999683|GBP|CoinsBank|BTC|DSX|GBP|
-1.6677345492194968|GBP|CoinsBank|BTC|Coinbase|GBP|
-1.624457425268619|GBP|Coinroom|BTC|CoinsBank|GBP|
-1.5977734254200597|GBP|Coinroom|ETH|Coinbase|GBP|
-1.596258064516129|GBP|Coinbase|ETH|DSX|GBP|
-1.5408818050093147|GBP|Coinroom|LTC|DSX|GBP|
-1.3167046160215277|GBP|Coinroom|LTC|CoinsBank|GBP|
-1.250251931474639|GBP|Coinbase|LTC|DSX|GBP|
-1.23245704823018|GBP|Coinroom|LTC|Coinbase|GBP|
-1.17025624901745|GBP|CoinsBank|LTC|DSX|GBP|
-
-
-# EUR
-* Entry points 28
-* Permutations 66
-
-2.195654627675031|EUR|Coinroom|BTC|Coinbase|EUR|
-2.193478819491975|EUR|Coinroom|BTC|DSX|EUR|
-1.835572411133252|EUR|Coinroom|BCH|DSX|EUR|
-1.7313106640097704|EUR|Coinroom|BCH|Coinbase|EUR|
-1.6252686518609638|EUR|CoinsBank|BTC|Coinbase|EUR|
-1.6236580739550353|EUR|CoinsBank|BTC|DSX|EUR|
-1.4327135900841081|EUR|CoinsBank|LTC|Coinbase|EUR|
-1.4311642319610447|EUR|CoinsBank|LTC|DSX|EUR|
-1.3509487340206583|EUR|Coinroom|BTC|CoinsBank|EUR|
-1.3207508671699655|EUR|Coinroom|LTC|Coinbase|EUR|
-1.3193225872270964|EUR|Coinroom|LTC|DSX|EUR|
-1.2469244935543278|EUR|Coinroom|ETH|Coinbase|EUR|
-1.2402946593001842|EUR|Coinroom|ETH|DSX|EUR|
-1.084772023019035|EUR|CoinsBank|LTC|Coinroom|EUR|
-1.0602212816514445|EUR|Coinbase|BCH|DSX|EUR|
-
-
-# USD
-* Entry points 34
-* Permutations 78
-
-2.1617370017561597|USD|Coinroom|BTC|DSX|USD|
-2.1539034644244586|USD|Coinroom|BTC|Coinbase|USD|
-2.046193443511244|USD|Coinroom|BCH|DSX|USD|
-2.046193443511244|USD|Coinroom|BCH|DSX|USD|
-2.0166621511785428|USD|Coinroom|BCH|Coinbase|USD|
-2.0166621511785428|USD|Coinroom|BCH|Coinbase|USD|
-1.755894192064405|USD|Coinroom|LTC|CoinsBank|USD|
-1.7015881861242685|USD|Coinbase|LTC|CoinsBank|USD|
-1.6752160197503774|USD|DSX|LTC|CoinsBank|USD|
-1.5877703859473573|USD|CoinsBank|BTC|DSX|USD|
-1.5820167449714273|USD|CoinsBank|BTC|Coinbase|USD|
-1.361492203714544|USD|Coinroom|BTC|CoinsBank|USD|
-1.2523644598374852|USD|Coinroom|ETH|DSX|USD|
-1.2475689356600508|USD|Coinroom|ETH|Coinbase|USD|
-1.048159861989649|USD|Coinroom|LTC|DSX|USD|
-
-
-echo Generated Wed 21 Aug 11:35:17 BST 2019 > tmp/readme.md
-make[1]: Leaving directory '/home/dean/magnum-ci/tmp/cerberus'
+make[1]: *** Deleting file 'tmp/readme.md'
+Traceback (most recent call last):
+  File "./cerberus.py", line 87, in <module>
+    trade.append(get_spot(exchange, from_symbol, to_symbol))
+  File "./cerberus.py", line 18, in get_spot
+    r = requests.get(url)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 841, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+make[1]: *** [makefile:7: tmp/readme.md] Interrupt

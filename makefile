@@ -9,4 +9,8 @@ CXXFLAGS := --std=c++2a --all-warnings --extra-warnings --pedantic-errors \
 
 all:
 	$(shell export CXX=$(CXX))
-	./ci.sh > readme.md
+	./ci.sh > readme.md 2| tee build.txt
+
+deps:
+	sudo apt update
+	sudo apt install -y git vim make g++-9 sloccount iputils-tracepath graphviz

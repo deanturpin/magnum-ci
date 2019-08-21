@@ -1,3 +1,5 @@
-make[1]: Entering directory '/home/dean/magnum-ci/tmp/tony'
+make[1]: Entering directory '/home/djturpin/magnum-ci/tmp/tony'
 g++ -std=c++2a -Wall -pedantic -pedantic-errors -O1 -o tony.o tony.cpp
-make[1]: Leaving directory '/home/dean/magnum-ci/tmp/tony'
+make[1]: g++: Command not found
+make[1]: *** [makefile:5: tony.o] Error 127
+make[1]: Leaving directory '/home/djturpin/magnum-ci/tmp/tony'
