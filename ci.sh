@@ -26,6 +26,7 @@ for repo in ${repos[@]}; do
 	echo "# $repo"
 	pushd $subdir > /dev/null
 	mkdir -p $artefacts
+	echo Build $repo >&2
 	make >& $artefacts/build.txt && echo "* PASS" || echo "* FAIL"
 
 	# Build artefacts
