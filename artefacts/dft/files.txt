@@ -1,1 +1,20 @@
  M readme.md
+ M wav/JF_fibreglass_slide.png
+ M wav/KP_guest.png
+ M wav/bamboo_drone.png
+ M wav/didgeridoo_big_tony_drone.png
+ M wav/didgeridoo_big_tony_toot.png
+ M wav/glass1.png
+ M wav/glass2.png
+ M wav/glass3.png
+ M wav/glass4.png
+ M wav/glass5.png
+ M wav/hobgoblin_didge_8000.png
+ M wav/pianoBb2.png
+ M wav/singing_bowl1.png
+ M wav/singing_bowl2.png
+ M wav/singing_bowl3.png
+ M wav/singing_bowl5.png
+ M wav/synthesised_chord.png
+ M wav/synthesised_chord_whole_freqs.png
+ M wav/synthesised_overtones.png

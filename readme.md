@@ -54,7 +54,7 @@ Total Estimated Cost to Develop                           = $ 11,573
 ```
 
 # primes
-* FAIL
+* PASS
 * See build [artefacts](artefacts/primes)
 ```
 sh:             277 (59.31%)
