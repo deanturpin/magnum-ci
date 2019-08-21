@@ -30,12 +30,14 @@ for repo in ${repos[@]}; do
 	# Make directory for build artefacts
 	artefacts=../../artefacts/$repo
 
-	# Build the project and report success
-	echo "# $repo"
+	# Prepare to build the project
 	pushd $subdir > /dev/null
 	mkdir -p $artefacts
 	echo Build $repo >&2
-	make >&2 && echo "* PASS" || echo "* FAIL"
+
+	# Create project heading and report success
+	echo -n "# $repo - "
+	make >&2 && echo "PASS" || echo "FAIL"
 
 	# Lint
 	cppcheck --enable=all . > cppcheck.txt
@@ -43,7 +45,7 @@ for repo in ${repos[@]}; do
 	# Get build artefacts
 	echo Get artefacts from $subdir >&2
 	git status --porcelain > $artefacts/files.txt
-	echo "* See build [artefacts](artefacts/$repo)"
+	echo "See build [artefacts](artefacts/$repo)"
 	popd > /dev/null
 
 	# Line count and cost
