@@ -1,5 +1,13 @@
 #!/bin/bash
 
+export CXX=g++-9
+export CXXFLAGS="--std=c++2a --all-warnings --extra-warnings --pedantic-errors \
+	-Werror -Wshadow -Wfloat-equal -Weffc++ -Wdelete-non-virtual-dtor \
+	-Warray-bounds -Wattribute-alias -Wformat-overflow -Wformat-truncation \
+	-Wmissing-attributes -Wstringop-truncation \
+	-Wdeprecated-copy -Wclass-conversion \
+	-O1"
+
 # The repos we're interested in
 readonly repos=(tony bigo cpp cerberus dft primes)
 
@@ -57,6 +65,14 @@ for app in gcc-9 make bash; do
 	echo '```'
 
 done
+
+# Compilation
+echo "**Compiler flags**"
+echo '```'
+echo $CXXFLAGS
+echo '```'
+
+# Linux
 echo "**Linux kernel**"
 echo '```'
 uname -a

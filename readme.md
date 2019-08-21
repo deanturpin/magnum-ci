@@ -92,6 +92,10 @@ License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
+**Compiler flags**
+```
+--std=c++2a --all-warnings --extra-warnings --pedantic-errors -Werror -Wshadow -Wfloat-equal -Weffc++ -Wdelete-non-virtual-dtor -Warray-bounds -Wattribute-alias -Wformat-overflow -Wformat-truncation -Wmissing-attributes -Wstringop-truncation -Wdeprecated-copy -Wclass-conversion -O1
+```
 **Linux kernel**
 ```
 Linux laptop 5.0.0-25-generic #26-Ubuntu SMP Thu Aug 1 12:04:58 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
