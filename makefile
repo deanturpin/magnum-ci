@@ -7,8 +7,7 @@ all:
 
 	# Add any new artefacts and push
 	git add .
-	git commit -m "cron"
-	git push >&2
+	git commit -m "cron" && git push >&2
 
 deps:
 	sudo apt update
