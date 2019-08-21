@@ -1,5 +1,11 @@
 all:
+	# Run Magnum CI
 	./ci.sh > readme.md 2| tee build.txt
+
+	# Add any new artefacts and push
+	git add .
+	git commit -m "cron"
+	git push >&2
 
 deps:
 	sudo apt update

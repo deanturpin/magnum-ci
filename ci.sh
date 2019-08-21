@@ -77,9 +77,3 @@ echo "**Linux kernel**"
 echo '```'
 uname -a
 echo '```'
-
-# Add any new artefacts and push
-git add .
-git commit -m "cron"
-git push >&2
-
