@@ -49,7 +49,7 @@ rm -rf $tmp
 
 echo "---"
 echo "# Tech stack"
-for app in gcc-9 firefox make bash; do
+for app in gcc-9 make bash; do
 
 	echo "**$app**"
 	echo '```'
@@ -65,4 +65,5 @@ echo '```'
 # Add any new artefacts and push
 git add .
 git commit -m "cron"
-git push
+git push >&2
+
