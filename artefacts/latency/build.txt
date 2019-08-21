@@ -5,8 +5,8 @@ bin/ping-local.sh
 bin/ping-remote.sh
 bin/cpu-test.sh
 CPU is @ 0.90GHz
-Remote ping 11.412 ms RRT
-Local ping 0.064 ms RRT
+Local ping 0.072 ms RRT
+Remote ping 46.799 ms RRT
 make[2]: Leaving directory '/home/dean/magnum-ci/tmp/latency'
 generating results
 echo 'This file is auto generated.' > results.md

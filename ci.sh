@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # The repos we're interested in
-readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes latency)
+# readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes latency)
+readonly repos=(tony bigo latency)
 
 # Remove any cruft
 tmp=tmp

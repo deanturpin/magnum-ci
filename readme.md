@@ -1,3 +1,24 @@
+# bigo
+* PASS
+* See build [artefacts](artefacts/bigo)
+```
+sh:             277 (63.82%)
+cpp:             93 (21.43%)
+perl:            64 (14.75%)
+Total Physical Source Lines of Code (SLOC)                = 434
+Total Estimated Cost to Develop                           = $ 11,246
+```
+
+# latency
+* PASS
+* See build [artefacts](artefacts/latency)
+```
+sh:             282 (81.50%)
+perl:            64 (18.50%)
+Total Physical Source Lines of Code (SLOC)                = 346
+Total Estimated Cost to Develop                           = $ 8,865
+```
+
 ---
 # Tech stack
 **gcc-9**

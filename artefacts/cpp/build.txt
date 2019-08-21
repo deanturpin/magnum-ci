@@ -13,5 +13,8 @@ start
 done
 start
 done
-make[2]: Leaving directory '/home/dean/magnum-ci/tmp/cpp'
-make[1]: Leaving directory '/home/dean/magnum-ci/tmp/cpp'
+make[2]: *** [makefile:17: tmp/filesystem.o] Interrupt
+make[2]: *** [makefile:17: tmp/bitwise_operators.o] Interrupt
+make[2]: *** [makefile:17: tmp/negative.o] Interrupt
+make[2]: *** [makefile:17: tmp/partition.o] Interrupt
+make[1]: *** [makefile:5: all] Interrupt
