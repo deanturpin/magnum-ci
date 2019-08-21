@@ -30,12 +30,15 @@ for repo in ${repos[@]}; do
 	# Make directory for build artefacts
 	artefacts=../../artefacts/$repo
 
-	# Move to the repo dir, build the project and report success
+	# Build the project and report success
 	echo "# $repo"
 	pushd $subdir > /dev/null
 	mkdir -p $artefacts
 	echo Build $repo >&2
 	make >&2 && echo "* PASS" || echo "* FAIL"
+
+	# Lint
+	cppcheck --enable=all . > cppcheck.txt
 
 	# Get build artefacts
 	echo Get artefacts from $subdir >&2
