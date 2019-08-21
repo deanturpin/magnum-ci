@@ -1,5 +1,5 @@
 # tony
-* PASS
+* FAIL
 * See build [artefacts](artefacts/tony)
 ```
 sh:             277 (69.25%)
@@ -43,7 +43,7 @@ Total Estimated Cost to Develop                           = $ 10,920
 ```
 
 # dft
-* PASS
+* FAIL
 * See build [artefacts](artefacts/dft)
 ```
 sh:             295 (66.14%)
@@ -54,7 +54,7 @@ Total Estimated Cost to Develop                           = $ 11,573
 ```
 
 # primes
-* PASS
+* FAIL
 * See build [artefacts](artefacts/primes)
 ```
 sh:             277 (59.31%)
@@ -79,7 +79,7 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 GNU Make 4.2.1
 Built for x86_64-pc-linux-gnu
 Copyright (C) 1988-2016 Free Software Foundation, Inc.
-Licence GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
@@ -98,5 +98,5 @@ There is NO WARRANTY, to the extent permitted by law.
 ```
 **Linux kernel**
 ```
-Linux laptop 5.0.0-25-generic #26-Ubuntu SMP Thu Aug 1 12:04:58 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+Linux magnum-ci 5.0.0-1013-gcp #13-Ubuntu SMP Thu Aug 1 16:42:47 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ```
