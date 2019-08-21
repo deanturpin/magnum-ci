@@ -4,7 +4,7 @@ strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
 soy_yo [label="laptop"]
-graph [label="./hosts2dot.sh - Wed 21 Aug 11:21:22 BST 2019" labelloc=top labeljust=left]
+graph [label="./hosts2dot.sh - Wed 21 Aug 13:06:32 BST 2019" labelloc=top labeljust=left]
 "127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
 soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
 "duckduckgo.com" [fillcolor=red fontcolor=white]
@@ -16,7 +16,7 @@ soy_yo--"silobrighton.com # RIP :("
 "rate.sx # Command line crypto ticker" [fillcolor=red fontcolor=white]
 soy_yo--"cheat.sh"--"rate.sx # Command line crypto ticker"
 "fixer.io # Fiat currencies" [fillcolor=red fontcolor=white]
-soy_yo--"c9.a7.559e.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
+soy_yo--"e6.d1.0bc6.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
 "travis-ci.org # Travis CI" [fillcolor=red fontcolor=white]
 soy_yo--"travis-ci.org # Travis CI"
 "turpin.dev # My website" [fillcolor=red fontcolor=white]

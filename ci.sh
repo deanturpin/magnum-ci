@@ -6,6 +6,7 @@ readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes)
 # Remove any cruft
 tmp=tmp
 [[ -e $tmp ]] && rm -rf $tmp
+[[ -e artefacts ]] && rm -rf artefacts
 
 echo Create working directory $tmp >&2
 

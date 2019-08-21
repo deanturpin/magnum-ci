@@ -9,21 +9,21 @@ make[2]: Entering directory '/home/dean/magnum-ci/tmp/dft'
 ./dft.o wav/synthesised_chord.wav
 ./dft.o wav/glass2.wav
 ./dft.o wav/didgeridoo_big_tony_drone.wav
-1451 Hz	wav/glass5.wav
+221 Hz	wav/synthesised_chord.wav
 ./dft.o wav/synthesised_chord_whole_freqs.wav
 58 Hz	wav/didgeridoo_big_tony_drone.wav
-221 Hz	wav/synthesised_chord.wav
-473 Hz	wav/glass2.wav
 ./dft.o wav/bamboo_drone.wav
+1451 Hz	wav/glass5.wav
 ./dft.o wav/singing_bowl1.wav
+473 Hz	wav/glass2.wav
 ./dft.o wav/JF_fibreglass_slide.wav
-276 Hz	wav/synthesised_chord_whole_freqs.wav
+72 Hz	wav/bamboo_drone.wav
 ./dft.o wav/KP_guest.wav
 468 Hz	wav/singing_bowl1.wav
 ./dft.o wav/singing_bowl2.wav
-82 Hz	wav/JF_fibreglass_slide.wav
+276 Hz	wav/synthesised_chord_whole_freqs.wav
 ./dft.o wav/pianoBb2.wav
-72 Hz	wav/bamboo_drone.wav
+82 Hz	wav/JF_fibreglass_slide.wav
 ./dft.o wav/synthesised_overtones.wav
 325 Hz	wav/KP_guest.wav
 ./dft.o wav/glass3.wav
@@ -35,14 +35,14 @@ make[2]: Entering directory '/home/dean/magnum-ci/tmp/dft'
 ./dft.o wav/hobgoblin_didge_8000.wav
 793 Hz	wav/glass3.wav
 ./dft.o wav/didgeridoo_big_tony_toot.wav
-298 Hz	wav/singing_bowl5.wav
-./dft.o wav/glass1.wav
 572 Hz	wav/glass4.wav
+./dft.o wav/glass1.wav
+298 Hz	wav/singing_bowl5.wav
 ./dft.o wav/singing_bowl3.wav
 76 Hz	wav/hobgoblin_didge_8000.wav
-2184 Hz	wav/glass1.wav
-178 Hz	wav/didgeridoo_big_tony_toot.wav
 260 Hz	wav/singing_bowl3.wav
+178 Hz	wav/didgeridoo_big_tony_toot.wav
+2184 Hz	wav/glass1.wav
 make[2]: Leaving directory '/home/dean/magnum-ci/tmp/dft'
 make readme.md
 make[2]: Entering directory '/home/dean/magnum-ci/tmp/dft'

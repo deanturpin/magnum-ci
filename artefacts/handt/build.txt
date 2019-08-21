@@ -2,7 +2,27 @@ make[1]: Entering directory '/home/dean/magnum-ci/tmp/handt'
 mkdir -p tmp
 ./get_coins.py > tmp/coins.txt
 ./get_prices.py
-............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................ got prices
+....................................# WAVES generated exception: Expecting value: line 1 column 1 (char 0)
+.......# AION generated exception: Expecting value: line 1 column 1 (char 0)
+........................................................................# WABI generated exception: can only concatenate str (not "Response") to str
+.....................# BNB generated exception: can only concatenate str (not "Response") to str
+.....# ONT generated exception: Expecting value: line 1 column 1 (char 0)
+.......# ATOM generated exception: Expecting value: line 1 column 1 (char 0)
+...# SALT generated exception: Expecting value: line 1 column 1 (char 0)
+..........................................................................................# ZEC generated exception: can only concatenate str (not "Response") to str
+...........................................................................................# ANKR generated exception: can only concatenate str (not "Response") to str
+.....................................................# TNT generated exception: Expecting value: line 1 column 1 (char 0)
+...............................# QSP generated exception: Expecting value: line 1 column 1 (char 0)
+..............# EVX generated exception: Expecting value: line 1 column 1 (char 0)
+.............# LINK generated exception: Expecting value: line 1 column 1 (char 0)
+........................................# RVN generated exception: can only concatenate str (not "Response") to str
+.......................# BTC generated exception: can only concatenate str (not "Response") to str
+..# BTC generated exception: Expecting value: line 1 column 1 (char 0)
+....# RLC generated exception: Expecting value: line 1 column 1 (char 0)
+.............# MDA generated exception: Expecting value: line 1 column 1 (char 0)
+........................# DGD generated exception: Expecting value: line 1 column 1 (char 0)
+.............................................# BCH generated exception: can only concatenate str (not "Response") to str
+.......................................... got prices
 mkdir -p analysis
 Using 4 CPUs
 make -j 4 tmp/trade.o tmp/backtest.o tmp/report.o \
@@ -57,37 +77,37 @@ Exchanges in use: Coinbase Binance
 ```
 184755f gcc9 and don't use native tuning
 ```
-Generated Wed Aug 21 11:44:53 2019
+Generated Wed Aug 21 13:40:11 2019
 
 * 4 threads
-* 620 currency pairs
+* 600 currency pairs
 * 2,250 strategies
-* 2,516,969,680 backtests
+* 2,437,186,739 backtests
 
 # Current prospects
 
 Strategy|Pair|Exchange|Perf|Spot|Jitter %
 ---|---|---|---|---
-Indifferent-Pekingese-13|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|18/1|6e-08|4.2484
-Darting-Havanese-10|[DUSK-BNB](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|0.00748|2.34891
-Darting-Havanese-11|[DUSK-BNB](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|0.00748|2.34891
-Darting-Jagdterrier-4|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.993e-05|2.33187
-Darting-Jagdterrier-5|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.993e-05|2.33187
-Indifferent-Jagdterrier-4|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.993e-05|2.33187
-Indifferent-Jagdterrier-5|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.993e-05|2.33187
-Indifferent-Pekingese-14|[ERD-PAX](https://www.cryptocompare.com/coins/ERD)|Binance|9/0|0.003102|2.06613
-Darting-Pekingese-5|[ERD-BTC](https://www.cryptocompare.com/coins/ERD)|Binance|9/1|3.1e-07|2.33517
-Darting-Cricket-10|[DUSK-BNB](https://www.cryptocompare.com/coins/DUSK)|Binance|8/0|0.00748|2.34891
-Darting-Havanese-12|[DUSK-BNB](https://www.cryptocompare.com/coins/DUSK)|Binance|8/0|0.00748|2.34891
+Slouching-Shiba Inu-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|19/1|6e-08|4.25384
+Indifferent-Pekingese-13|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|18/1|6e-08|4.25384
+Slouching-Pekingese-13|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|14/1|6e-08|4.25384
+Slouching-Havanese-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|20/2|6e-08|4.25384
+Darting-Havanese-10|[DUSK-BNB](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|0.00743|2.34253
+Darting-Havanese-11|[DUSK-BNB](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|0.00743|2.34253
+Darting-Jagdterrier-4|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.989e-05|2.32896
+Darting-Jagdterrier-5|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.989e-05|2.32896
+Indifferent-Jagdterrier-4|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.989e-05|2.32896
+Indifferent-Jagdterrier-5|[DUSK-BTC](https://www.cryptocompare.com/coins/DUSK)|Binance|9/0|1.989e-05|2.32896
+Indifferent-Pekingese-14|[ERD-PAX](https://www.cryptocompare.com/coins/ERD)|Binance|9/0|0.003102|2.06312
 
 # 80-day backtest
 
 Strategy|Pair|Exchange|Perf|Spot|Jitter %
 ---|---|---|---|---
-Indifferent-Norrbottenspets-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|20/1|6e-08|4.2484
-Slouching-Shiba Inu-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|19/1|6e-08|4.2484
-Indifferent-Pekingese-13|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|18/1|6e-08|4.2484
-Slouching-Norrbottenspets-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|18/1|6e-08|4.2484
-Indifferent-Havanese-14|[HC-BTC](https://www.cryptocompare.com/coins/HC)|Binance|15/0|0.0002701|1.17131
-Indifferent-Havanese-15|[HC-BTC](https://www.cryptocompare.com/coins/HC)|Binance|13/0|0.0002701|1.17131
+Indifferent-Norrbottenspets-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|20/1|6e-08|4.25384
+Slouching-Shiba Inu-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|19/1|6e-08|4.25384
+Indifferent-Pekingese-13|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|18/1|6e-08|4.25384
+Slouching-Norrbottenspets-17|[BTT-BTC](https://www.cryptocompare.com/coins/BTT)|Binance|18/1|6e-08|4.25384
+Indifferent-Havanese-14|[HC-BTC](https://www.cryptocompare.com/coins/HC)|Binance|15/0|0.0002734|1.16991
+Indifferent-Havanese-15|[HC-BTC](https://www.cryptocompare.com/coins/HC)|Binance|13/0|0.0002734|1.16991
 make[1]: Leaving directory '/home/dean/magnum-ci/tmp/handt'
