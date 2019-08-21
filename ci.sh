@@ -82,3 +82,8 @@ echo "**Linux kernel**"
 echo '```'
 uname -a
 echo '```'
+
+# Build slave info
+echo '```'
+lscpu
+echo '```'
