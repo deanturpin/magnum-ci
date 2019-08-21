@@ -99,3 +99,8 @@ There is NO WARRANTY, to the extent permitted by law.
 ```
 Linux magnum-ci 5.0.0-1013-gcp #13-Ubuntu SMP Thu Aug 1 16:42:47 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ```
+[master 7311765] cron
+ 10 files changed, 110 insertions(+), 142 deletions(-)
+ rewrite artefacts/cerberus/build.txt (98%)
+ rewrite artefacts/cpp/build.txt (97%)
+ create mode 100644 build.txt
