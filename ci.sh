@@ -17,6 +17,7 @@ tmp=tmp
 [[ -e artefacts ]] && rm -rf artefacts
 
 echo Create working directory $tmp >&2
+echo Generated date
 
 # Clone, build and extract the artefacts from each repo
 for repo in ${repos[@]}; do
