@@ -1,5 +1,5 @@
 # tony
-* FAIL
+* PASS
 * See build [artefacts](artefacts/tony)
 ```
 sh:             277 (69.25%)
@@ -43,7 +43,7 @@ Total Estimated Cost to Develop                           = $ 10,920
 ```
 
 # dft
-* FAIL
+* PASS
 * See build [artefacts](artefacts/dft)
 ```
 sh:             295 (66.14%)
