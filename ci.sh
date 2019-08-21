@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # The repos we're interested in
-# readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes)
-readonly repos=(tony bigo)
+readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes)
 
 # Remove any cruft
 tmp=tmp

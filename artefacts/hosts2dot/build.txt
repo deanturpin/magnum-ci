@@ -4,18 +4,32 @@ strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
 soy_yo [label="laptop"]
-graph [label="./hosts2dot.sh - Wed 21 Aug 09:08:47 BST 2019" labelloc=top labeljust=left]
+graph [label="./hosts2dot.sh - Wed 21 Aug 11:21:22 BST 2019" labelloc=top labeljust=left]
 "127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
 soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
 "duckduckgo.com" [fillcolor=red fontcolor=white]
-soy_yo--"_gateway"--"_gateway"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"ec2-176-34-155-23.eu-west-1.compute.amazonaws.com"--"duckduckgo.com"
-"infinityfoods.coop # Organic food" [fillcolor=green fontcolor=white]
-soy_yo--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--"2a01:4c8:f800:c06::2"--"2a01:4c8:f800:c05::1"--"2a01:4c8:f800:c4c::2"--"2a01:4c8:f800:c4d::2"--"2a01:4c8:f800:8042::2"--"infinityfoods.coop # Organic food"
+soy_yo--"duckduckgo.com"
+"infinityfoods.coop # Organic food" [fillcolor=red fontcolor=white]
+soy_yo--"infinityfoods.coop # Organic food"
 "silobrighton.com # RIP :(" [fillcolor=red fontcolor=white]
-soy_yo--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--"2a01:4c8:f800:c06::2"--"silobrighton.com # RIP :("
-"rate.sx # Command line crypto ticker" [fillcolor=green fontcolor=white]
-soy_yo--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--"2a01:4c8:f800:c06::2"--"rate.sx # Command line crypto ticker"
-"fixer.io # Fiat currencies" [fillcolor=green fontcolor=white]
-soy_yo--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--"2a01:4c8:f800:c06::2"--"fixer.io # Fiat currencies"
+soy_yo--"silobrighton.com # RIP :("
+"rate.sx # Command line crypto ticker" [fillcolor=red fontcolor=white]
+soy_yo--"cheat.sh"--"rate.sx # Command line crypto ticker"
+"fixer.io # Fiat currencies" [fillcolor=red fontcolor=white]
+soy_yo--"c9.a7.559e.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
 "travis-ci.org # Travis CI" [fillcolor=red fontcolor=white]
-soy_yo--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:43a:9851:2def:d82b:4f50:6c88"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--make[1]: *** [makefile:5: topology.dot] Interrupt
+soy_yo--"travis-ci.org # Travis CI"
+"turpin.dev # My website" [fillcolor=red fontcolor=white]
+soy_yo--"turpin.dev # My website"
+"tomahawktechnology.com # Nino's website" [fillcolor=red fontcolor=white]
+soy_yo--"tomahawktechnology.com # Nino's website"
+"brignull.com # Harry's website" [fillcolor=red fontcolor=white]
+soy_yo--"brignull.com # Harry's website"
+"7thsensedesign.com" [fillcolor=red fontcolor=white]
+soy_yo--"ds8722.dedicated.turbodns.co.uk"--"7thsensedesign.com"
+"" [fillcolor=red fontcolor=white]
+soy_yo--Usage: tracepath [-4] [-6] [-n] [-b] [-l <len>] [-p port] <destination>
+""
+}
+dot -T svg topology.dot > topology.svg
+make[1]: Leaving directory '/home/dean/magnum-ci/tmp/hosts2dot'
