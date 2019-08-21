@@ -1,3 +1,0 @@
-make[1]: Entering directory '/home/djturpin/magnum-ci/tmp/bigo'
-make[1]: Nothing to be done for 'all'.
-make[1]: Leaving directory '/home/djturpin/magnum-ci/tmp/bigo'
