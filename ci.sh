@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The repos we're interested in
-readonly repos=(tony bigo cpp cerberus dft handt primes latency)
+readonly repos=(hosts2dot tony bigo cpp cerberus dft handt primes latency)
 
 # Remove any cruft
 tmp=tmp
@@ -16,7 +16,7 @@ for repo in ${repos[@]}; do
 
 	# Clone
 	echo Cloning $repo into $subdir >&2
-	git clone --depth=1 https://github.com/deanturpin/$repo $subdir
+	git clone --depth=1 https://github.com/deanturpin/$repo $subdir || continue
 
 	# Make directory for build artefacts
 	artefacts=../../artefacts/$repo
