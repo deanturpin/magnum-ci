@@ -10,7 +10,7 @@ export CXXFLAGS="--std=c++2a --all-warnings --extra-warnings --pedantic-errors \
 
 # The repos we're interested in
 # readonly repos=(agraph funktional float-format spectrum-analyser tony bigo cpp)
-readonly repos=(curly yogr) # cerberus dft primes yogr curly handt hosts2dot
+readonly repos=(curly yogr handt) # cerberus dft hosts2dot
 
 # Remove any cruft
 tmp=tmp
@@ -18,7 +18,7 @@ tmp=tmp
 [[ -e artefacts ]] && rm -rf artefacts
 
 echo Create working directory $tmp >&2
-echo Generated date
+echo Generated $(date)
 
 # Clone, build and extract the artefacts from each repo
 for repo in ${repos[@]}; do
@@ -42,7 +42,7 @@ for repo in ${repos[@]}; do
 	make >&2 && echo "PASS" || echo "FAIL"
 
 	# Lint
-	cppcheck --enable=all . >& cppcheck.txt
+	cppcheck --enable=all . 1>/dev/null 2>cppcheck.txt
 
 	# Get build artefacts
 	echo Get artefacts from $subdir >&2

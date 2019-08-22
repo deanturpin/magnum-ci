@@ -6,7 +6,7 @@ all:
 	./ci.sh > readme.md 2| tee build.txt
 
 	# Add any new artefacts and push
-	git add .
+	git add artefacts readme.md
 	git commit -m "cron" && git push >&2
 
 deps:
