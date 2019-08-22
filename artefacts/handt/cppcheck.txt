@@ -1,3 +1,0 @@
-[backtest.cpp:79]: (error) syntax error
-[strategy.cpp:28]: (style) Consider using std::transform algorithm instead of a raw loop.
-(information) Cppcheck cannot find all the include files (use --check-config for details)

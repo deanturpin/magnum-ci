@@ -1,4 +1,4 @@
-Generated Thu 22 Aug 13:16:44 BST 2019
+Generated Thu 22 Aug 13:34:39 BST 2019
 # agraph - PASS
 See build [artefacts](artefacts/agraph)
 ```
@@ -8,115 +8,6 @@ cpp:             46 (11.19%)
 ansic:           22 (5.35%)
 Total Physical Source Lines of Code (SLOC)                = 411
 Total Estimated Cost to Develop                           = $ 10,621
-```
-
-# funktional - PASS
-See build [artefacts](artefacts/funktional)
-```
-sh:             277 (52.76%)
-cpp:            184 (35.05%)
-perl:            64 (12.19%)
-Total Physical Source Lines of Code (SLOC)                = 525
-Total Estimated Cost to Develop                           = $ 13,734
-```
-
-# float-format - PASS
-See build [artefacts](artefacts/float-format)
-```
-sh:             277 (75.27%)
-perl:            64 (17.39%)
-cpp:             27 (7.34%)
-Total Physical Source Lines of Code (SLOC)                = 368
-Total Estimated Cost to Develop                           = $ 9,458
-```
-
-# spectrum-analyser - PASS
-See build [artefacts](artefacts/spectrum-analyser)
-```
-sh:             277 (48.85%)
-cpp:            226 (39.86%)
-perl:            64 (11.29%)
-Total Physical Source Lines of Code (SLOC)                = 567
-Total Estimated Cost to Develop                           = $ 14,890
-```
-
-# tony - PASS
-See build [artefacts](artefacts/tony)
-```
-sh:             277 (69.25%)
-perl:            64 (16.00%)
-cpp:             59 (14.75%)
-Total Physical Source Lines of Code (SLOC)                = 400
-Total Estimated Cost to Develop                           = $ 10,323
-```
-
-# bigo - PASS
-See build [artefacts](artefacts/bigo)
-```
-sh:             277 (63.82%)
-cpp:             93 (21.43%)
-perl:            64 (14.75%)
-Total Physical Source Lines of Code (SLOC)                = 434
-Total Estimated Cost to Develop                           = $ 11,246
-```
-
-# cpp - FAIL
-See build [artefacts](artefacts/cpp)
-```
-cpp:           2396 (87.54%)
-sh:             277 (10.12%)
-perl:            64 (2.34%)
-Total Physical Source Lines of Code (SLOC)                = 2,737
-Total Estimated Cost to Develop                           = $ 77,764
-```
-
-# yogr - FAIL
-See build [artefacts](artefacts/yogr)
-```
-sh:             279 (81.34%)
-perl:            64 (18.66%)
-Total Physical Source Lines of Code (SLOC)                = 343
-Total Estimated Cost to Develop                           = $ 8,784
-```
-
-# handt - FAIL
-See build [artefacts](artefacts/handt)
-```
-cpp:            558 (57.64%)
-sh:             277 (28.62%)
-python:          69 (7.13%)
-perl:            64 (6.61%)
-Total Physical Source Lines of Code (SLOC)                = 968
-Total Estimated Cost to Develop                           = $ 26,110
-```
-
-# cerberus - PASS
-See build [artefacts](artefacts/cerberus)
-```
-sh:             277 (65.64%)
-python:          81 (19.19%)
-perl:            64 (15.17%)
-Total Physical Source Lines of Code (SLOC)                = 422
-Total Estimated Cost to Develop                           = $ 10,920
-```
-
-# dft - PASS
-See build [artefacts](artefacts/dft)
-```
-sh:             295 (66.14%)
-cpp:             87 (19.51%)
-perl:            64 (14.35%)
-Total Physical Source Lines of Code (SLOC)                = 446
-Total Estimated Cost to Develop                           = $ 11,573
-```
-
-# hosts2dot - PASS
-See build [artefacts](artefacts/hosts2dot)
-```
-sh:             298 (82.32%)
-perl:            64 (17.68%)
-Total Physical Source Lines of Code (SLOC)                = 362
-Total Estimated Cost to Develop                           = $ 9,296
 ```
 
 ---
@@ -169,7 +60,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2061.952
+CPU MHz:             2046.428
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
