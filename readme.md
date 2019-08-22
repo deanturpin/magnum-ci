@@ -20,7 +20,7 @@ Total Physical Source Lines of Code (SLOC)                = 525
 Total Estimated Cost to Develop                           = $ 13,734
 ```
 
-# float-format - FAIL
+# float-format - PASS
 See build [artefacts](artefacts/float-format)
 ```
 sh:             277 (75.27%)
@@ -82,7 +82,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2048.798
+CPU MHz:             2000.103
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
