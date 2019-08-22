@@ -1,4 +1,4 @@
-Generated Thu 22 Aug 13:14:44 BST 2019
+Generated Thu 22 Aug 13:16:44 BST 2019
 # agraph - PASS
 See build [artefacts](artefacts/agraph)
 ```
@@ -70,16 +70,6 @@ Total Physical Source Lines of Code (SLOC)                = 2,737
 Total Estimated Cost to Develop                           = $ 77,764
 ```
 
-# curly - PASS
-See build [artefacts](artefacts/curly)
-```
-cpp:             98 (70.50%)
-python:          30 (21.58%)
-sh:              11 (7.91%)
-Total Physical Source Lines of Code (SLOC)                = 139
-Total Estimated Cost to Develop                           = $ 3,403
-```
-
 # yogr - FAIL
 See build [artefacts](artefacts/yogr)
 ```
@@ -89,7 +79,7 @@ Total Physical Source Lines of Code (SLOC)                = 343
 Total Estimated Cost to Develop                           = $ 8,784
 ```
 
-# handt - PASS
+# handt - FAIL
 See build [artefacts](artefacts/handt)
 ```
 cpp:            558 (57.64%)
@@ -179,7 +169,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2120.550
+CPU MHz:             2061.952
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00

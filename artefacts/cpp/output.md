@@ -18,6 +18,22 @@ main caught straggler 2
 ```
 ```
 ```
+create test vector
+test vector complete
+4 threads
+100013 size
+25004 elements per thread
+start
+start
+done
+start
+done
+start
+done
+done
+```
+```
+```
 iter 5
 iter 4
 iter 3
@@ -29,22 +45,6 @@ cont 4
 2	3
 3	4
 4	5
-```
-```
-create test vector
-test vector complete
-4 threads
-100013 size
-25004 elements per thread
-start
-done
-start
-done
-start
-done
-start
-done
-```
 ```
 10
 10
@@ -256,6 +256,8 @@ stack size 8
 9
 ```
 ```
+```
+```
 0
 17506
 1
@@ -278,11 +280,9 @@ stack size 8
 32511
 ```
 ```
+```
+```
 Is A final? false Is B final? true
-```
-```
-```
-```
 ```
 ```
 ```
@@ -311,14 +311,14 @@ three
 ```
 ram lower 0
 ram upper 80000000
-static_global1	55cf0de85138
-static_global2	55cf0de85010
-static_local1	55cf0de8513c
-static_local2	55cf0de85014
-local_var1	7ffcbb4880c8
-local_var2	7ffcbb4880cc
-dynamic_local	55cf0f094e80
-function	55cf0de821b5
+static_global1	5575dccd8138
+static_global2	5575dccd8010
+static_local1	5575dccd813c
+static_local2	5575dccd8014
+local_var1	7ffc8886ed38
+local_var2	7ffc8886ed3c
+dynamic_local	5575de7a3e80
+function	5575dccd51b5
 ```
 ```
 Don't
