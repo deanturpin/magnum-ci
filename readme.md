@@ -30,6 +30,46 @@ Total Physical Source Lines of Code (SLOC)                = 368
 Total Estimated Cost to Develop                           = $ 9,458
 ```
 
+# spectrum-analyser - PASS
+See build [artefacts](artefacts/spectrum-analyser)
+```
+sh:             277 (48.85%)
+cpp:            226 (39.86%)
+perl:            64 (11.29%)
+Total Physical Source Lines of Code (SLOC)                = 567
+Total Estimated Cost to Develop                           = $ 14,890
+```
+
+# tony - PASS
+See build [artefacts](artefacts/tony)
+```
+sh:             277 (69.25%)
+perl:            64 (16.00%)
+cpp:             59 (14.75%)
+Total Physical Source Lines of Code (SLOC)                = 400
+Total Estimated Cost to Develop                           = $ 10,323
+```
+
+# bigo - PASS
+See build [artefacts](artefacts/bigo)
+```
+sh:             277 (63.82%)
+cpp:             93 (21.43%)
+perl:            64 (14.75%)
+Total Physical Source Lines of Code (SLOC)                = 434
+Total Estimated Cost to Develop                           = $ 11,246
+```
+
+# cpp - PASS
+See build [artefacts](artefacts/cpp)
+```
+cpp:           2396 (87.54%)
+sh:             277 (10.12%)
+perl:            64 (2.34%)
+Total Physical Source Lines of Code (SLOC)                = 2,737
+Total Estimated Cost to Develop                           = $ 77,764
+```
+
 ---
 # Tech stack
 **gcc-9**
@@ -82,7 +122,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2116.772
+CPU MHz:             1800.062
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
