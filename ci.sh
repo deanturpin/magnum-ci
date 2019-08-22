@@ -51,7 +51,6 @@ for repo in ${repos[@]}; do
 		cp $file $artefacts
 	done
 	
-	> $artefacts/files.txt
 	echo "See build [artefacts](artefacts/$repo)"
 	popd > /dev/null
 
