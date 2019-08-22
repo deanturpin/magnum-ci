@@ -4,25 +4,25 @@ ctor
 dtor
 ```
 ```
+a ctor
+a ctor
+a ctor
+a ctor
+a ctor
+	a dtor
+	a dtor
+	a dtor
+	a dtor
+	a dtor
+```
+```
 ```
 I am functor
-```
-```
-a ctor
-a ctor
-a ctor
-a ctor
-a ctor
-	a dtor
-	a dtor
-	a dtor
-	a dtor
-	a dtor
-```
-```
 5
 5
 6
+```
+```
 ```
 ```
 C dtor
@@ -35,7 +35,7 @@ main caught straggler 2
 ```
 ```
 ```
-0 uncaught exceptions
+0
 ```
 ```
 create test vector
@@ -61,20 +61,20 @@ start
 done
 ```
 ```
-0
-```
-```
-Address of a 0x7fff5c7faaa4
-56ab55aa
-Does b equal a? false
-```
-```
 ⣿
+```
+```
+0 uncaught exceptions
 ```
 ```
 Overload not override
 foo
 bar
+```
+```
+Address of a 0x7ffde4c68124
+56ab55aa
+Does b equal a? false
 ```
 ```
 Impl ctor
@@ -86,18 +86,6 @@ foo 5 bah 6
 p 6 q 5
 3.14
 1078523331
-```
-```
-Order
-
-Static allocation
-AB~B~A
-Dynamic allocation - leak (A has non-virtual destructor)
-AB~A
-Array of pointers
-AAAA~A~A~A~A
-Overload
-bar
 ```
 ```
 8 sizeof a
@@ -180,6 +168,22 @@ bar
 9
 ```
 ```
+Order
+
+Static allocation
+AB~B~A
+Dynamic allocation - leak (A has non-virtual destructor)
+AB~A
+Array of pointers
+AAAA~A~A~A~A
+Overload
+bar
+```
+```
+```
+```
+```
+```
 std::string size 10
 vector size 4
 deque size 4
@@ -228,6 +232,15 @@ stack size 8
 	1
 ```
 ```
+0
+Bx C0
+100
+G2 G#2
+1000
+B5 C6
+1200
+D6 D#6
+10000
 ```
 ```
 ```
@@ -241,19 +254,6 @@ stack size 8
 4	d
 ```
 ```
-```
-```
-0
-Bx C0
-100
-G2 G#2
-1000
-B5 C6
-1200
-D6 D#6
-10000
-```
-```
 one, 1
 one, 2
 one, 1
@@ -262,18 +262,18 @@ two, 2
 Searching... found 1.000000
 ```
 ```
+```
+```
 ram lower 0
 ram upper 80000000
-static_global1	55e1207ee138
-static_global2	55e1207ee014
-static_local1	55e1207ee134
-static_local2	55e1207ee010
-local_var1	7ffcbef14870
-local_var2	7ffcbef14874
-dynamic_local	55e1216f5e80
-function	55e1207eb195
-```
-```
+static_global1	55a19f3d6138
+static_global2	55a19f3d6014
+static_local1	55a19f3d6134
+static_local2	55a19f3d6010
+local_var1	7fffb33f4870
+local_var2	7fffb33f4874
+dynamic_local	55a1a0a7ce80
+function	55a19f3d3195
 ```
 ```
 Don't
@@ -290,10 +290,6 @@ finger.
 120 factorial4
 ```
 ```
-do1
-do2
-```
-```
 0
 1
 1.09051
@@ -304,6 +300,13 @@ do2
 1.27537
 1.29684
 1.31607
+```
+```
+do1
+do2
+```
+3535000000 size of container in bytes
+9223372036854775807 max size of container in bytes
 ```
 ```
 
@@ -652,9 +655,6 @@ trying index 1
 trying index 2
 trying index 3
 ```
-3535000000 size of container in bytes
-9223372036854775807 max size of container in bytes
-```
 ```
 4
 5
@@ -664,6 +664,23 @@ trying index 3
 4
 5
 4
+```
+```
+class A {};
+class alignas(32) B {};
+
+1	alignment_of<A>::value
+32	alignment_of<B>::value
+4	alignment_of<int>::value
+8	alignment_of<double>::value
+1	alignof(A)
+32	alignof(B)
+4	alignof(int)
+8	alignof(double)
+```
+```
+30 elements
+5 elements
 ```
 ```
 INPUT
@@ -688,10 +705,6 @@ lambda
 3
 2
 1
-```
-```
-30 elements
-5 elements
 ```
 ```
 Match no

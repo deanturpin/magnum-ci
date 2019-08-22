@@ -1,4 +1,4 @@
-Generated Thu Aug 22 13:54:33 BST 2019
+Generated Thu Aug 22 14:01:40 BST 2019
 # agraph - PASS
 See build [artefacts](artefacts/agraph)
 ```
