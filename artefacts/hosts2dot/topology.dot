@@ -1,0 +1,18 @@
+strict graph {
+fontname=helvetica
+node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
+soy_yo [label="laptop"]
+graph [label="./hosts2dot.sh - Thu 22 Aug 13:39:19 BST 2019" labelloc=top labeljust=left]
+"127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
+soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
+"rate.sx # Command line crypto ticker" [fillcolor=green fontcolor=white]
+soy_yo--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:f800:c37::"--"2a01:4c8:f800:c4a::3"--"2a01:4c8:f800:c06::2"--"rate.sx # Command line crypto ticker"
+"fixer.io # Fiat currencies" [fillcolor=red fontcolor=white]
+soy_yo--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:f800:c37::"--"2a01:4c8:f800:c4a::3"--"2a01:4c8:f800:c06::2"--"fixer.io # Fiat currencies"
+"turpin.dev # My website" [fillcolor=red fontcolor=white]
+soy_yo--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:f800:c37::"--"2a01:4c8:f800:c4a::3"--"2a01:4c8:f800:c06::2"--"turpin.dev # My website"
+"brignull.com # Harry's website" [fillcolor=green fontcolor=white]
+soy_yo--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:f800:c37::"--"2a01:4c8:f800:c4a::3"--"2a01:4c8:f800:c06::2"--"brignull.com # Harry's website"
+"7thsensedesign.com" [fillcolor=red fontcolor=white]
+soy_yo--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:42e:4955:9d93:dddb:871d:5436"--"2a01:4c8:f800:c37::"--"2a01:4c8:f800:c4a::3"--"2a01:4c8:f800:c06::2"--"7thsensedesign.com"
+}
