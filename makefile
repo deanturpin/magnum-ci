@@ -12,4 +12,4 @@ all:
 deps:
 	sudo apt update
 	sudo apt install -y git vim make g++-9 sloccount \
-		iputils-tracepath graphviz gnuplot cppcheck
+		iputils-tracepath graphviz cppcheck
