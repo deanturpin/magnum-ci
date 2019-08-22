@@ -18,6 +18,17 @@ Total Physical Source Lines of Code (SLOC)                = 343
 Total Estimated Cost to Develop                           = $ 8,784
 ```
 
+# handt - PASS
+See build [artefacts](artefacts/handt)
+```
+cpp:            558 (57.64%)
+sh:             277 (28.62%)
+python:          69 (7.13%)
+perl:            64 (6.61%)
+Total Physical Source Lines of Code (SLOC)                = 968
+Total Estimated Cost to Develop                           = $ 26,110
+```
+
 ---
 # Tech stack
 **gcc-9**
@@ -68,7 +79,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2041.291
+CPU MHz:             2000.204
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
