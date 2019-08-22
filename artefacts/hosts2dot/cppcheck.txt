@@ -1,0 +1,1 @@
+./ci.sh: line 45: cppcheck: command not found
