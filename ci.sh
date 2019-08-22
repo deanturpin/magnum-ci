@@ -9,8 +9,8 @@ export CXXFLAGS="--std=c++2a --all-warnings --extra-warnings --pedantic-errors \
 	-O1"
 
 # The repos we're interested in
-readonly repos=(agraph funktional float-format spectrum-analyser tony bigo cpp)
-# readonly repos=(cerberus dft primes yogr curly handt hosts2dot \
+# readonly repos=(agraph funktional float-format spectrum-analyser tony bigo cpp)
+readonly repos=(primes curly yogr) # cerberus dft primes yogr curly handt hosts2dot
 
 # Remove any cruft
 tmp=tmp
