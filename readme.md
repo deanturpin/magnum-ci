@@ -1,4 +1,4 @@
-Generated date
+Generated Thu 22 Aug 13:12:17 BST 2019
 # curly - PASS
 See build [artefacts](artefacts/curly)
 ```
@@ -79,7 +79,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2018.443
+CPU MHz:             2002.707
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
