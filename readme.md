@@ -1,14 +1,4 @@
 Generated date
-# primes - PASS
-See build [artefacts](artefacts/primes)
-```
-sh:             277 (59.31%)
-cpp:            126 (26.98%)
-perl:            64 (13.70%)
-Total Physical Source Lines of Code (SLOC)                = 467
-Total Estimated Cost to Develop                           = $ 12,146
-```
-
 # curly - PASS
 See build [artefacts](artefacts/curly)
 ```
@@ -78,7 +68,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             1067.302
+CPU MHz:             2000.057
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00

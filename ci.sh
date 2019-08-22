@@ -10,7 +10,7 @@ export CXXFLAGS="--std=c++2a --all-warnings --extra-warnings --pedantic-errors \
 
 # The repos we're interested in
 # readonly repos=(agraph funktional float-format spectrum-analyser tony bigo cpp)
-readonly repos=(primes curly yogr) # cerberus dft primes yogr curly handt hosts2dot
+readonly repos=(curly yogr) # cerberus dft primes yogr curly handt hosts2dot
 
 # Remove any cruft
 tmp=tmp
@@ -42,11 +42,16 @@ for repo in ${repos[@]}; do
 	make >&2 && echo "PASS" || echo "FAIL"
 
 	# Lint
-	cppcheck --enable=all . >& $artefacts/cppcheck.txt
+	cppcheck --enable=all . >& cppcheck.txt
 
 	# Get build artefacts
 	echo Get artefacts from $subdir >&2
-	git status --porcelain > $artefacts/files.txt
+	git status --porcelain | while read line; do
+		file=$(echo $line | cut -d' ' -f2)
+		cp $file $artefacts
+	done
+	
+	> $artefacts/files.txt
 	echo "See build [artefacts](artefacts/$repo)"
 	popd > /dev/null
 
