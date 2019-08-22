@@ -97,6 +97,6 @@ echo Generate artefact index >&2
 for repo in artefacts/*; do
 	files=$(ls $repo)
 	for file in $files; do
-		echo "[$file]($file)"
+		echo "- [$file]($file)"
 	done > $repo/readme.md
 done
