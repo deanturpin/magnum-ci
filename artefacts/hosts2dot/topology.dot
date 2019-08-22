@@ -1,0 +1,18 @@
+strict graph {
+fontname=helvetica
+node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
+soy_yo [label="laptop"]
+graph [label="./hosts2dot.sh - Thu 22 Aug 13:15:55 BST 2019" labelloc=top labeljust=left]
+"127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
+soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
+"rate.sx # Command line crypto ticker" [fillcolor=red fontcolor=white]
+soy_yo--"send"--"rate.sx # Command line crypto ticker"
+"fixer.io # Fiat currencies" [fillcolor=red fontcolor=white]
+soy_yo--"fixer.io # Fiat currencies"
+"turpin.dev # My website" [fillcolor=red fontcolor=white]
+soy_yo--"turpin.dev # My website"
+"brignull.com # Harry's website" [fillcolor=red fontcolor=white]
+soy_yo--"brignull.com # Harry's website"
+"7thsensedesign.com" [fillcolor=red fontcolor=white]
+soy_yo--"7thsensedesign.com"
+}

@@ -1,0 +1,8 @@
+[vektor.h:13]: (style) Struct 'vektor < double >' has a constructor with 1 argument that is not explicit.
+[vektor.h:22]: (style) Struct 'vektor < double >' has a constructor with 1 argument that is not explicit.
+[vektor.h:13]: (style) Struct 'vektor < std :: string >' has a constructor with 1 argument that is not explicit.
+[vektor.h:22]: (style) Struct 'vektor < std :: string >' has a constructor with 1 argument that is not explicit.
+[vektor.h:40]: (style) Consider using std::copy algorithm instead of a raw loop.
+[vektor.h:46]: (style) Consider using std::copy algorithm instead of a raw loop.
+[streamcat.cpp:7]: (style) The function 'z' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)

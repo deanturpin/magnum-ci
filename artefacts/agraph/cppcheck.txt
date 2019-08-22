@@ -1,0 +1,2 @@
+[ncurses.c:23] -> [ncurses.c:32]: (style) Local variable i shadows outer variable
+(information) Cppcheck cannot find all the include files (use --check-config for details)
