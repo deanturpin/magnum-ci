@@ -1,11 +1,5 @@
 Generated date
 # agraph - PASS
-Checking draw.cpp ...
-1/3 files checked 40% done
-Checking main.cpp ...
-2/3 files checked 69% done
-Checking ncurses.c ...
-3/3 files checked 100% done
 See build [artefacts](artefacts/agraph)
 ```
 sh:             279 (67.88%)
@@ -17,12 +11,6 @@ Total Estimated Cost to Develop                           = $ 10,621
 ```
 
 # funktional - FAIL
-Checking comparison.cpp ...
-1/3 files checked 33% done
-Checking funktional.cpp ...
-2/3 files checked 82% done
-Checking streamcat.cpp ...
-3/3 files checked 100% done
 See build [artefacts](artefacts/funktional)
 ```
 sh:             277 (52.76%)
@@ -33,7 +21,6 @@ Total Estimated Cost to Develop                           = $ 13,734
 ```
 
 # float-format - FAIL
-Checking float_format.cpp ...
 See build [artefacts](artefacts/float-format)
 ```
 sh:             277 (75.27%)
@@ -95,7 +82,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2000.159
+CPU MHz:             2048.798
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
