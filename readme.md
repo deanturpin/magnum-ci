@@ -99,9 +99,7 @@ This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
 **Compiler flags**
-```
 --std=c++2a --all-warnings --extra-warnings --pedantic-errors -Werror -Wshadow -Wfloat-equal -Weffc++ -Wdelete-non-virtual-dtor -Warray-bounds -Wattribute-alias -Wformat-overflow -Wformat-truncation -Wmissing-attributes -Wstringop-truncation -Wdeprecated-copy -Wclass-conversion -O1
-```
 **Linux kernel**
 ```
 Linux laptop 5.0.0-25-generic #26-Ubuntu SMP Thu Aug 1 12:04:58 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
@@ -122,7 +120,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             1800.062
+CPU MHz:             1800.090
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00

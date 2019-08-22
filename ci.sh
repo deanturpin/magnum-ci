@@ -75,9 +75,8 @@ done
 
 # Compilation
 echo "**Compiler flags**"
-echo '```'
+
 echo $CXXFLAGS
-echo '```'
 
 # Linux
 echo "**Linux kernel**"
