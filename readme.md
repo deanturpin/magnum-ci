@@ -1,4 +1,4 @@
-Generated Thu 22 Aug 13:34:39 BST 2019
+Generated Thu 22 Aug 13:36:03 BST 2019
 # agraph - PASS
 See build [artefacts](artefacts/agraph)
 ```
@@ -12,7 +12,7 @@ Total Estimated Cost to Develop                           = $ 10,621
 
 ---
 # Tech stack
-**gcc-9**
+## gcc-9
 ```
 gcc-9 (Ubuntu 9.1.0-2ubuntu2~19.04) 9.1.0
 Copyright (C) 2019 Free Software Foundation, Inc.
@@ -20,7 +20,7 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 ```
-**make**
+## make
 ```
 GNU Make 4.2.1
 Built for x86_64-pc-linux-gnu
@@ -29,7 +29,7 @@ Licence GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
-**bash**
+## bash
 ```
 GNU bash, version 5.0.3(1)-release (x86_64-pc-linux-gnu)
 Copyright (C) 2019 Free Software Foundation, Inc.
@@ -38,9 +38,9 @@ License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ```
-**Compiler flags**
+## Compiler flags
 --std=c++2a --all-warnings --extra-warnings --pedantic-errors -Werror -Wshadow -Wfloat-equal -Weffc++ -Wdelete-non-virtual-dtor -Warray-bounds -Wattribute-alias -Wformat-overflow -Wformat-truncation -Wmissing-attributes -Wstringop-truncation -Wdeprecated-copy -Wclass-conversion -O1
-**Linux kernel**
+## Linux kernel
 ```
 Linux laptop 5.0.0-25-generic #26-Ubuntu SMP Thu Aug 1 12:04:58 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
 ```
@@ -60,7 +60,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2046.428
+CPU MHz:             2009.137
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00
