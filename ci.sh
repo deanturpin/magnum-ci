@@ -9,8 +9,10 @@ export CXXFLAGS="--std=c++2a --all-warnings --extra-warnings --pedantic-errors \
 	-O1"
 
 # The repos we're interested in
-readonly repos=(tony bigo cpp cerberus dft primes yogr curly handt hosts2dot \
-	spectrum-analyser agraph funktional float-format)
+readonly repos=(agraph funktional float-format)
+
+# readonly repos=(tony bigo cpp cerberus dft primes yogr curly handt hosts2dot \
+# 	spectrum-analyser agraph funktional float-format)
 
 # Remove any cruft
 tmp=tmp
@@ -42,7 +44,7 @@ for repo in ${repos[@]}; do
 	make >&2 && echo "PASS" || echo "FAIL"
 
 	# Lint
-	cppcheck --enable=all . > $artefacts/cppcheck.txt
+	cppcheck --enable=all . 2> $artefacts/cppcheck.txt
 
 	# Get build artefacts
 	echo Get artefacts from $subdir >&2

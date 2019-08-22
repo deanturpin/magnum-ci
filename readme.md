@@ -1,112 +1,11 @@
 Generated date
-# tony - PASS
-See build [artefacts](artefacts/tony)
-```
-sh:             277 (69.25%)
-perl:            64 (16.00%)
-cpp:             59 (14.75%)
-Total Physical Source Lines of Code (SLOC)                = 400
-Total Estimated Cost to Develop                           = $ 10,323
-```
-
-# bigo - PASS
-See build [artefacts](artefacts/bigo)
-```
-sh:             277 (63.82%)
-cpp:             93 (21.43%)
-perl:            64 (14.75%)
-Total Physical Source Lines of Code (SLOC)                = 434
-Total Estimated Cost to Develop                           = $ 11,246
-```
-
-# cpp - FAIL
-See build [artefacts](artefacts/cpp)
-```
-cpp:           2396 (87.54%)
-sh:             277 (10.12%)
-perl:            64 (2.34%)
-Total Physical Source Lines of Code (SLOC)                = 2,737
-Total Estimated Cost to Develop                           = $ 77,764
-```
-
-# cerberus - PASS
-See build [artefacts](artefacts/cerberus)
-```
-sh:             277 (65.64%)
-python:          81 (19.19%)
-perl:            64 (15.17%)
-Total Physical Source Lines of Code (SLOC)                = 422
-Total Estimated Cost to Develop                           = $ 10,920
-```
-
-# dft - PASS
-See build [artefacts](artefacts/dft)
-```
-sh:             295 (66.14%)
-cpp:             87 (19.51%)
-perl:            64 (14.35%)
-Total Physical Source Lines of Code (SLOC)                = 446
-Total Estimated Cost to Develop                           = $ 11,573
-```
-
-# primes - PASS
-See build [artefacts](artefacts/primes)
-```
-sh:             277 (59.31%)
-cpp:            126 (26.98%)
-perl:            64 (13.70%)
-Total Physical Source Lines of Code (SLOC)                = 467
-Total Estimated Cost to Develop                           = $ 12,146
-```
-
-# yogr - FAIL
-See build [artefacts](artefacts/yogr)
-```
-sh:             279 (81.34%)
-perl:            64 (18.66%)
-Total Physical Source Lines of Code (SLOC)                = 343
-Total Estimated Cost to Develop                           = $ 8,784
-```
-
-# curly - FAIL
-See build [artefacts](artefacts/curly)
-```
-cpp:             98 (70.50%)
-python:          30 (21.58%)
-sh:              11 (7.91%)
-Total Physical Source Lines of Code (SLOC)                = 139
-Total Estimated Cost to Develop                           = $ 3,403
-```
-
-# handt - PASS
-See build [artefacts](artefacts/handt)
-```
-cpp:            558 (89.00%)
-python:          69 (11.00%)
-Total Physical Source Lines of Code (SLOC)                = 627
-Total Estimated Cost to Develop                           = $ 16,549
-```
-
-# hosts2dot - PASS
-See build [artefacts](artefacts/hosts2dot)
-```
-sh:             298 (82.32%)
-perl:            64 (17.68%)
-Total Physical Source Lines of Code (SLOC)                = 362
-Total Estimated Cost to Develop                           = $ 9,296
-```
-
-# spectrum-analyser - PASS
-See build [artefacts](artefacts/spectrum-analyser)
-```
-sh:             277 (48.85%)
-cpp:            226 (39.86%)
-perl:            64 (11.29%)
-Total Physical Source Lines of Code (SLOC)                = 567
-Total Estimated Cost to Develop                           = $ 14,890
-```
-
-# agraph - FAIL
+# agraph - PASS
+Checking draw.cpp ...
+1/3 files checked 40% done
+Checking main.cpp ...
+2/3 files checked 69% done
+Checking ncurses.c ...
+3/3 files checked 100% done
 See build [artefacts](artefacts/agraph)
 ```
 sh:             279 (67.88%)
@@ -118,6 +17,12 @@ Total Estimated Cost to Develop                           = $ 10,621
 ```
 
 # funktional - FAIL
+Checking comparison.cpp ...
+1/3 files checked 33% done
+Checking funktional.cpp ...
+2/3 files checked 82% done
+Checking streamcat.cpp ...
+3/3 files checked 100% done
 See build [artefacts](artefacts/funktional)
 ```
 sh:             277 (52.76%)
@@ -128,6 +33,7 @@ Total Estimated Cost to Develop                           = $ 13,734
 ```
 
 # float-format - FAIL
+Checking float_format.cpp ...
 See build [artefacts](artefacts/float-format)
 ```
 sh:             277 (75.27%)
@@ -189,7 +95,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2050.337
+CPU MHz:             2000.159
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00

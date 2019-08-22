@@ -1,1 +1,2 @@
-Checking float_format.cpp ...
+[float_format.cpp:26]: (portability) Casting from float* to integer* is not portable due to different binary data representations on different platforms.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
