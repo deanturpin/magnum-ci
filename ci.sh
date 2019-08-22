@@ -9,8 +9,9 @@ export CXXFLAGS="--std=c++2a --all-warnings --extra-warnings --pedantic-errors \
 	-O1"
 
 # The repos we're interested in
-# readonly repos=(agraph funktional float-format spectrum-analyser tony bigo cpp)
-readonly repos=(curly yogr handt) # cerberus dft hosts2dot
+# readonly repos=(agraph funktional float-format spectrum-analyser tony bigo \ 
+# 	cpp curly yogr handt cerberus dft hosts2dot)
+readonly repos=(agraph)
 
 # Remove any cruft
 tmp=tmp
@@ -70,7 +71,7 @@ echo "---"
 echo "# Tech stack"
 for app in gcc-9 make bash; do
 
-	echo "**$app**"
+	echo "## $app"
 	echo '```'
 	$app --version
 	echo '```'
@@ -78,12 +79,12 @@ for app in gcc-9 make bash; do
 done
 
 # Compilation
-echo "**Compiler flags**"
+echo "## Compiler flags"
 
 echo $CXXFLAGS
 
 # Linux
-echo "**Linux kernel**"
+echo "## Linux kernel"
 echo '```'
 uname -a
 echo '```'
@@ -92,3 +93,11 @@ echo '```'
 echo '```'
 lscpu
 echo '```'
+
+echo Generate artefact index >&2
+for repo in artefacts/*; do
+	files=$(ls $repo)
+	for file in $files; do
+		echo "[$file]($file)"
+	done > $repo/readme.md
+done
