@@ -1,4 +1,4 @@
-Generated Fri 23 Aug 10:34:41 BST 2019
+Generated Fri 23 Aug 11:11:36 BST 2019
 # agraph - PASS
 See build [artefacts](artefacts/agraph)
 ```
@@ -169,7 +169,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             2021.971
+CPU MHz:             2094.297
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00

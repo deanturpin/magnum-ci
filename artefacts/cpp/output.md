@@ -24,8 +24,8 @@ test vector complete
 100013 size
 25004 elements per thread
 start
-done
 start
+done
 done
 start
 done
@@ -67,46 +67,46 @@ bar 0
 20
 ```
 ```
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-```
-```
 I am A
 I am A
+```
+```
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
 ```
 ```
 Overload not override
@@ -144,7 +144,6 @@ D6 D#6
 ```
 ctor
 dtor
-```
 ```
 ```
 std::string size 10
@@ -193,6 +192,7 @@ stack size 8
 	3
 	0
 	1
+```
 ```
 FIXED
 OUT	one 1.123456789 false true
@@ -259,6 +259,8 @@ IN	one 1.1234570000e+00 false true
 Is A final? false Is B final? true
 ```
 ```
+```
+```
 0
 17506
 1
@@ -291,8 +293,6 @@ p 6 q 5
 1078523331
 ```
 ```
-```
-```
 1
 1
 ```
@@ -311,14 +311,14 @@ three
 ```
 ram lower 0
 ram upper 80000000
-static_global1	55a771863138
-static_global2	55a771863014
-static_local1	55a771863134
-static_local2	55a771863010
-local_var1	7ffcd15aae40
-local_var2	7ffcd15aae44
-dynamic_local	55a772927e80
-function	55a771860195
+static_global1	55b2b4b96138
+static_global2	55b2b4b96014
+static_local1	55b2b4b96134
+static_local2	55b2b4b96010
+local_var1	7ffca8bf3e80
+local_var2	7ffca8bf3e84
+dynamic_local	55b2b532de80
+function	55b2b4b93195
 ```
 ```
 Don't
@@ -328,26 +328,23 @@ the
 finger.
 ```
 ```
-1--
-2--
-3--
-4--
-5--
-1--
-2--
-3--
-4--
-5--
-```
-```
 120 factorial1
 120 factorial3
 120 factorial4
 ```
 ```
+1--
+2--
+3--
+4--
+5--
+1--
+2--
+3--
+4--
+5--
 ```
 ```
-⣿
 ```
 ```
 0
@@ -360,6 +357,9 @@ finger.
 1.27537
 1.29684
 1.31607
+```
+```
+⣿
 ```
 ```
 6 items, 1 budget
@@ -721,16 +721,6 @@ b ctor
 	a dtor
 ```
 ```
-4
-5
-6
-4
-6
-4
-5
-4
-```
-```
 INPUT
 -3.5
 -2.5
@@ -755,10 +745,16 @@ lambda
 1
 ```
 ```
+4
+5
+6
+4
+6
+4
+5
+4
 ```
 ```
-30 elements
-5 elements
 ```
 ```
 class A {};
@@ -774,6 +770,10 @@ class alignas(32) B {};
 8	alignof(double)
 ```
 ```
+30 elements
+5 elements
+```
+```
 ```
 ```
 1
@@ -787,16 +787,18 @@ class alignas(32) B {};
 ```
 "blah" is my name
 ```
-0x561b0c5eb100 global
-0x561b0c5eb0a0 static 1
-0x7ffef9033210 stack
-0x561b0c5eb040 static 2
-0x561b0d68fe70 heap
-0x7ffef903318e lambda
-0x7ffef9033190 values1
-0x7ffef90331d0 values2
-0x561b0c5eb108 member 1
-0x7ffef9033218 member 2
+```
+```
+0x55bbe2b8c100 global
+0x55bbe2b8c0a0 static 1
+0x7fff3c60b2f0 stack
+0x55bbe2b8c040 static 2
+0x55bbe3ab3e70 heap
+0x7fff3c60b26e lambda
+0x7fff3c60b270 values1
+0x7fff3c60b2b0 values2
+0x55bbe2b8c108 member 1
+0x7fff3c60b2f8 member 2
 	0
 	11
 	22
@@ -805,8 +807,6 @@ class alignas(32) B {};
 	55
 	66
 	77
-```
-```
 ```
 ```
 1
@@ -902,6 +902,13 @@ copy ```
 Total time 150
 ```
 ```
+4 elements
+1 2
+1 5
+3 2
+6 7
+```
+```
 1
 1
 1
@@ -935,13 +942,6 @@ Total time 150
 4
 ```
 ```
-4 elements
-1 2
-1 5
-3 2
-6 7
-```
-```
 1
 2
 3
@@ -950,13 +950,6 @@ Total time 150
 2
 3
 -1
-```
-```
-(a < b) is true
-(a > b) is false
-(a <= b) is true
-(a >= b) is false
-```
 ```
 ```
 ```
@@ -983,9 +976,11 @@ __--- actual
 ----- actual
 ```
 ```
-0x7fff5edc8a30 b
-0x7fff5edc8a38 d
-0x7fff5edc8a40 d
+```
+(a < b) is true
+(a > b) is false
+(a <= b) is true
+(a >= b) is false
 ```
 ```
 1. A()
@@ -1000,6 +995,11 @@ __--- actual
 6. ~A()
 6. ~A()
 6. ~A()
+```
+```
+0x7ffdf3731330 b
+0x7ffdf3731338 d
+0x7ffdf3731340 d
 ```
 ```
 one, 1
@@ -1019,22 +1019,16 @@ Searching... found 1.000000
 104
 ```
 ```
-```
-```
 I am functor
 ```
 ```
-ctor a
-	dtor a
+```
 ```
 ```
 6 size
 ```
-```
-1 0
-1
-0 1
-4
+ctor a
+	dtor a
 ```
 ```
 Rows 500 Cols 1000
@@ -1043,9 +1037,10 @@ Rows 500 Cols 1000
 ```
 ```
 ```
-0 uncaught exceptions
-```
-```
+1 0
+1
+0 1
+4
 ```
 ```
 ```
@@ -1054,9 +1049,14 @@ b is 5
 c is 5
 ```
 ```
+0 uncaught exceptions
+```
+```
+```
+```
 1000 values
 "FFFFFFFFFFFFFFFFFFFFE"
-52494
+46751
 ```
 ```
 257
@@ -1067,6 +1067,14 @@ c is 5
 4369
 514
 128
+```
+```
+-268435455
+1
+0
+0
+-0
+0
 ```
 ```
 ./class_copy.cpp_
@@ -1222,15 +1230,7 @@ c is 5
 ./structures_and_unions.cpp
 ```
 ```
--268435455
-1
-0
-0
--0
-0
-```
-```
-Address of a 0x7ffde14a55f4
+Address of a 0x7ffd315d5d34
 56ab55aa
 Does b equal a? false
 ```
@@ -1296,10 +1296,6 @@ WORKERS
 7512 10013
 ```
 ```
-base
-derived
-```
-```
 1
 2
 3
@@ -1307,8 +1303,16 @@ derived
 5
 ```
 ```
+base
+derived
 ```
 ```
+```
+```
+```
+```
+0	00111110010011001100110011001101
+0	0011111111001001100110011001100110011001100110011001100110011010
 ```
 ```
 1
@@ -1322,20 +1326,16 @@ derived
 4
 ```
 ```
-0x55c37a693008```
-```
-0	00111110010011001100110011001101
-0	0011111111001001100110011001100110011001100110011001100110011010
+0x55d088079008```
 ```
 ```
 ```
-```
-0x7ffdd4063b70	before vector on stack
-0x7ffdd4063b74	vector declaration
-0x5651bb689e70	vector storage
-0x7ffdd4063b80	after vector on stack
-0x7ffdd4063b78	pointer on the stack
-0x5651bb689ea0	mem on heap
+0x7ffe4b4f2c60	before vector on stack
+0x7ffe4b4f2c64	vector declaration
+0x5639ea44ee70	vector storage
+0x7ffe4b4f2c70	after vector on stack
+0x7ffe4b4f2c68	pointer on the stack
+0x5639ea44eea0	mem on heap
 ```
 ```
 Is A final? false
@@ -1346,46 +1346,48 @@ Caught exception 2
 Standard exception cannot create std::vector larger than max_size()
 ```
 ```
-```
-0
-```
 4 max threads
 ### false mutex
 
- D is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
- D  C is my name isyes it is oh yes  it is 
-my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
 ### true mutex
 
- A is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+```
+```
+```
+```
+0
 ```
 ```
 good() - file doesn't exists
@@ -1423,8 +1425,6 @@ int main() {
   }
 }
 no good() - file does exists
-```
-```
 ```
 ```
 ```
