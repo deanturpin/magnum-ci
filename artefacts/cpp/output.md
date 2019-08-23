@@ -1,9 +1,28 @@
 
 ```
-0
+5
+5
+6
 ```
 ```
-Caught
+```
+I am functor
+```
+```
+a ctor
+a ctor
+a ctor
+a ctor
+a ctor
+	a dtor
+	a dtor
+	a dtor
+	a dtor
+	a dtor
+```
+```
+ctor
+dtor
 ```
 ```
 C dtor
@@ -12,20 +31,23 @@ A dtor
 main caught straggler 2
 ```
 ```
-8 sizeof a
-8 sizeof b
-8 sizeof c
-```
-```
 ```
 ```
 ```
 ```
 create test vector
 test vector complete
-4 threads
+8 threads
 100013 size
-25004 elements per thread
+12502 elements per thread
+start
+done
+start
+done
+start
+done
+start
+done
 start
 done
 start
@@ -36,36 +58,18 @@ start
 done
 ```
 ```
-iter 5
-iter 4
-iter 3
-cont 2
-cont 3
-cont 4
-0	1
-1	2
-2	3
-3	4
-4	5
+0 uncaught exceptions
 ```
 ```
-10
-10
+0
 ```
 ```
-ball caught
+⣿
 ```
 ```
-1
-4
-9
-1
-2
-3
-```
-```
-I am A
-I am A
+Address of a 0x7ffebdefee44
+56ab55aa
+Does b equal a? false
 ```
 ```
 Overload not override
@@ -73,42 +77,10 @@ foo
 bar
 ```
 ```
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
+foo 5 bah 6
+p 6 q 5
+3.14
+1078523331
 ```
 ```
 Impl ctor
@@ -128,98 +100,9 @@ Overload
 bar
 ```
 ```
-0
-Bx C0
-100
-G2 G#2
-1000
-B5 C6
-1200
-D6 D#6
-10000
-```
-```
-FIXED
-OUT	one 1.123456789 false true
-IN	one 1.123456789 false true
-
-SCIENTIFIC
-OUT	one 1.1234567890e+00 false true
-IN	one 1.1234570000e+00 false true
-```
-```
-ctor
-dtor
-```
-```
-std::string size 10
-vector size 4
-deque size 4
-list size 4
-map size 1
-	0, 1
-multimap size 3
-	0, 1
-	0, 2
-	0, 3
-set size 4
-	1
-	2
-	3
-	4
-multiset size 7
-	1
-	2
-	3
-	4
-	4
-	4
-	4
-queue size 8
-	1
-	0
-	3
-	2
-	2
-	5
-	6
-	7
-priority_queue size 4
-	3
-	2
-	1
-	0
-stack size 8
-	7
-	6
-	5
-	2
-	2
-	3
-	0
-	1
-```
-```
-0
-17506
-1
-9511
-2
-19353
-3
-24503
-4
-10372
-5
-11353
-6
-7153
-7
-5630
-8
-29439
-9
-32511
+8 sizeof a
+8 sizeof b
+8 sizeof c
 ```
 ```
 50 elements
@@ -275,47 +158,124 @@ stack size 8
 9
 ```
 ```
-Is A final? false Is B final? true
-```
-```
-```
-```
-```
-```
-foo 5 bah 6
-p 6 q 5
-3.14
-1078523331
-```
-```
-1
-1
-```
-```
-```
-```
-3 size
-one
-two
-three
-
-3 size
-1
-2
-3
 0
+17506
+1
+9511
+2
+19353
+3
+24503
+4
+10372
+5
+11353
+6
+7153
+7
+5630
+8
+29439
+9
+32511
+```
+```
+```
+```
+```
+```
+std::string size 10
+vector size 4
+deque size 4
+list size 4
+map size 1
+	0, 1
+multimap size 3
+	0, 1
+	0, 2
+	0, 3
+set size 4
+	1
+	2
+	3
+	4
+multiset size 7
+	1
+	2
+	3
+	4
+	4
+	4
+	4
+queue size 8
+	1
+	0
+	3
+	2
+	2
+	5
+	6
+	7
+priority_queue size 4
+	3
+	2
+	1
+	0
+stack size 8
+	7
+	6
+	5
+	2
+	2
+	3
+	0
+	1
+```
+```
+*
+0	d
+1	a
+2	b
+3	c
+*
+4	d
+```
+```
+0
+Bx C0
+100
+G2 G#2
+1000
+B5 C6
+1200
+D6 D#6
+10000
+```
+```
+```
+```
+one, 1
+one, 2
+one, 1
+one, 1
+two, 2
+Searching... found 1.000000
 ```
 ```
 ram lower 0
 ram upper 80000000
-static_global1	558662e48138
-static_global2	558662e48014
-static_local1	558662e48134
-static_local2	558662e48010
-local_var1	7ffd53751a80
-local_var2	7ffd53751a84
-dynamic_local	5586633eae80
-function	558662e45195
+static_global1	559e85bc1138
+static_global2	559e85bc1014
+static_local1	559e85bc1134
+static_local2	559e85bc1010
+local_var1	7ffc73ae85e0
+local_var2	7ffc73ae85e4
+dynamic_local	559e86e22e80
+function	559e85bbe195
+```
+```
+```
+```
 ```
 ```
 Don't
@@ -330,23 +290,6 @@ finger.
 120 factorial4
 ```
 ```
-1--
-2--
-3--
-4--
-5--
-1--
-2--
-3--
-4--
-5--
-```
-```
-```
-```
-⣿
-```
-```
 0
 1
 1.09051
@@ -357,6 +300,33 @@ finger.
 1.27537
 1.29684
 1.31607
+```
+```
+do1
+do2
+```
+```
+
+a ctor
+b ctor
+	b dtor
+	a dtor
+
+a ctor
+b ctor
+a ctor
+b ctor
+a ctor
+b ctor
+	b dtor
+	a dtor
+	b dtor
+	a dtor
+	b dtor
+	a dtor
+```
+```
+```
 ```
 ```
 6 items, 1 budget
@@ -684,38 +654,14 @@ trying index 2
 trying index 3
 ```
 ```
-do1
-do2
-```
-```
-```
-*
-0	d
-1	a
-2	b
-3	c
-*
-4	d
-```
-```
-
-a ctor
-b ctor
-	b dtor
-	a dtor
-
-a ctor
-b ctor
-a ctor
-b ctor
-a ctor
-b ctor
-	b dtor
-	a dtor
-	b dtor
-	a dtor
-	b dtor
-	a dtor
+4
+5
+6
+4
+6
+4
+5
+4
 ```
 ```
 INPUT
@@ -741,17 +687,8 @@ lambda
 2
 1
 ```
-```
-4
-5
-6
-4
-6
-4
-5
-4
-```
-```
+3535000000 size of container in bytes
+9223372036854775807 max size of container in bytes
 ```
 ```
 class A {};
@@ -771,62 +708,47 @@ class alignas(32) B {};
 5 elements
 ```
 ```
-```
-```
 1
 4
 9
 ```
 ```
+FIXED
+OUT	one 1.123456789 false true
+IN	one 1.123456789 false true
+
+SCIENTIFIC
+OUT	one 1.1234567890e+00 false true
+IN	one 1.1234570000e+00 false true
+```
+```
+1
+1
+```
+```
 7 size
 7 size
-```
-```
-"blah" is my name
-```
-0x55720fb19100 global
-0x55720fb190a0 static 1
-0x7ffde190c7c0 stack
-0x55720fb19040 static 2
-0x5572104a9e70 heap
-0x7ffde190c73e lambda
-0x7ffde190c740 values1
-0x7ffde190c780 values2
-0x55720fb19108 member 1
-0x7ffde190c7c8 member 2
-	0
-	11
-	22
-	33
-	44
-	55
-	66
-	77
-```
-```
 ```
 ```
 1
 ```
 ```
-Match no
-```
-```
-create
-ctor
-ctor
-ctor
-ctor
-resize
-	dtor
-clear
-	dtor
-	dtor
-	dtor
-destroy
+1--
+2--
+3--
+4--
+5--
+1--
+2--
+3--
+4--
+5--
 ```
 ```
 Nano is 1 / 1000000000 Value of third is 0.333333
+```
+```
+"blah" is my name
 ```
 ```
 constructor_calls 2049
@@ -837,18 +759,6 @@ copy_constructor_calls 6144
 48 copy constructor calls
 ```
 ```
--20
-4294967280
-```
-```
-sdf
-sdf
-
-1
-2
-3
-4
-5
 ```
 ```
 ### INIT
@@ -892,546 +802,14 @@ ctor
 Copy constructor
 copy ```
 ```
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3
-3499211612
-581869302
-3890346734
-3586334585
-545404204
-```
-```
-(?:[0-9]{1,3}\.?){4}\s+\S+
-1000000000
-111122223333
-70f
-Total time 150
-```
-```
-1
-2
-3
-4
-```
-```
-4 elements
-1 2
-1 5
-3 2
-6 7
-```
-```
-1
-2
-3
--1
-1
-2
-3
--1
-```
-```
-```
-```
-(a < b) is true
-(a > b) is false
-(a <= b) is true
-(a >= b) is false
-```
-```
-5 test cases
--------------------------
------
+sdf
+sdf
 
------ actual
-_________________________
-_____
-
-_____ actual
-_____-----------_________
-_---_
-
-_---_ actual
-___________--------------
-__---
-
-__--- actual
--_-_-_-_-_-_-_-_-_-_-_-_-
------
-
------ actual
-```
-```
-0x7ffe6a539f10 b
-0x7ffe6a539f18 d
-0x7ffe6a539f20 d
-```
-```
-1. A()
-2. A(const A &)
-4. A &operator=(A &)
-2. A(const A &)
-6. ~A()
-1. A()
-3. A(A &&)
-5. A &operator=(A &&)
-6. ~A()
-6. ~A()
-6. ~A()
-6. ~A()
-```
-```
-foo
-foo
-bar 0
-20
-```
-```
-100
-101
-102
-103
-104
-```
-```
-one, 1
-one, 2
-one, 1
-one, 1
-two, 2
-Searching... found 1.000000
-```
-```
-I am functor
-```
-```
-```
-```
-6 size
-```
-```
-ctor a
-	dtor a
-```
-```
-Rows 500 Cols 1000
-0
-```
-```
-```
-```
-1 0
-1
-0 1
-4
-```
-```
-0 uncaught exceptions
-```
-```
-```
-```
-```
-```
-b is 5
-c is 5
-```
-```
-1000 values
-"FFFFFFFFFFFFFFFFFFFFE"
-45526
-```
-```
-257
-4112
-18446744073709551358
-0
-4369
-4369
-514
-128
-```
-```
--268435455
-1
-0
-0
--0
-0
-```
-```
-./class_copy.cpp_
-./wide_iterators.cpp
-./structured_bindings.cpp_
-./midpoint_c++20.cpp_
-./uncaught_exceptions.cpp
-./any.cpp
-./sales.cpp
-./istream_iterator.cpp
-./classes14.cpp
-./heap_c++20.cpp_
-./bitwise_operators.cpp
-./pairs.csv
-./classes_construction_order.cpp
-./return_value_optimisation.cpp
-./vector_capacity.cpp
-./abs_warning.cpp_
-./virtual2.cpp
-./negative.cpp
-./Dockerfile
-./sets.cpp
-./perms.cpp
-./span_c++20.cpp_
-./containers.cpp
-./multiple_inheritance.cpp
-./mutable_keyword.cpp
-./factory.cpp_
-./numeric.cpp
-./implicit-constructors.cpp
-./trade.cpp_
-./relationalOperators.cpp
-./spaceship.cpp
-./recursive.cpp
-./unordered_sets.cpp_
-./functor.cpp
-./exceptions-in-destructors.cpp
-./dirty_cache.cpp
-./rule_of_five.cpp
-./default_constructor_only.cpp
-./align.cpp
-./precision.cpp
-./.git
-./modulus.cpp
-./inheritance2.cpp_
-./unique_pointer.cpp
-./exchange.cpp
-./auto_main.cpp
-./designated_initialisers.cpp_
-./readme.md
-./maybe_unused.cpp
-./threads.cpp_
-./unicode.cpp
-./classes.cpp
-./templates.cpp
-./virtual_base_class.cpp
-./linkage2.cpp_
-./tutorials.cpp
-./casting.cpp
-./parallel-algorithms.cpp
-./widechars.cpp
-./notes.cpp
-./complex.cpp
-./init_lists.cpp
-./fib.cpp
-./narrowing.cpp
-./map_index.cpp
-./getline.cpp
-./filesystem.cpp
-./tmp
-./factorial.cpp
-./cycles.cpp
-./ifs.cpp
-./inheritance.cpp_
-./user_literals.cpp
-./vector_storage.cpp
-./const_vector.cpp
-./rvalue-references.cpp
-./incrementing_bools.cpp_
-./exceptions.cpp
-./class_params.cpp_
-./nonmember_begin_and_end.cpp
-./shared_pointer.cpp
-./regular_expressions.cpp
-./pop_front_hack.cpp
-./pimpl.cpp
-./for_loops.cpp
-./classes11.cpp
-./boolalpha_read.cpp
-./reduce_c++20.cpp_
-./vector_initialisation.cpp
-./_config.yml
-./method_chaining.cpp
-./static.cpp
-./lambda_identity.cpp
-./list_init.cpp
-./only_shallow.cpp
-./parallel-exec.cpp
-./lambda_functions.cpp
-./quoted.cpp
-./size_of_classes.cpp
-./linkage1.cpp_
-./list-erase.cpp
-./ascending.txt
-./.gitignore
-./string_manipulation.cpp
-./mutex.cpp
-./stack-fibonacci.cpp_
-./move-range.cpp
-./segments.cpp
-./for_loop_index.cpp
-./ternary_operator.cpp
-./array.cpp
-./ratios.cpp
-./ascending.bin
-./terminate_handler.cpp_
-./multiple_inheritance_diamond.cpp
-./floating_point.cpp
-./non_virtual.cpp
-./friends.cpp
-./vector_resize.cpp
-./random.bin
-./output.md
-./pointers.cpp
-./worker_pool.cpp
-./function_pointers.cpp
-./const_pointers.cpp
-./class_war.cpp
-./templated-lambdas.cpp
-./optional.cpp
-./template-nesting.cpp
-./exceptions-small-ram.cpp
-./fallthrough.cpp
-./auto_refs.cpp
-./async.cpp
-./makefile
-./virtual3.cpp
-./strongly_typed_enums.cpp
-./file_read_write.cpp
-./classes_default_methods.cpp
-./partition.cpp
-./map_filter_reduce.cpp
-./templates_and_auto.cpp
-./algorithm.cpp
-./virtual1.cpp
-./tokenise.cpp
-./koenig.cpp
-./multimap.cpp
-./exceptions2.cpp
-./generate.cpp
-./cryptography.cpp
-./structures_and_unions.cpp
-```
-```
-Address of a 0x7ffe2990b7a4
-56ab55aa
-Does b equal a? false
-```
-```
-```
-Forward list
-1 30 -4 3 5 -4 1 6 -8 2 -5 64 1 92 
-Forward list partition 1
--4 -4 -8 -5 
-Forward list partition 2
-5 30 1 6 1 2 3 64 1 92 
-Sorted vector
--8 -5 -4 -4 1 1 1 2 3 5 6 30 64 92 
-Vector partion 1
--8 -5 -4 -4 
-Vector partion 2
-1 1 1 2 3 5 6 30 64 92 
-Stable partition
--4 -4 -8 -5 5 30 1 6 1 2 3 64 1 92 
-```
-4321
-
-4321
-
-L3L2L1x
-M1x
-R1x
-M2L1x
-M1x
-R1x
-R2L1x
-M1x
-R1x
-M3L2L1x
-M1x
-R1x
-M2L1x
-M1x
-R1x
-R2L1x
-M1x
-R1x
-R3L2L1x
-M1x
-R1x
-M2L1x
-M1x
-R1x
-R2L1x
-M1x
-R1x
-
-
-PERM LIST
-4
-```
-```
-WORKERS
-4 workers
-0 2504
-2504 5008
-5008 7512
-7512 10013
-```
-```
 1
 2
 3
 4
 5
-```
-```
-base
-derived
-```
-```
-```
-```
-1
-2
-3
-2
-3
-4
-16
-4
-4
-```
-```
-```
-```
-0	00111110010011001100110011001101
-0	0011111111001001100110011001100110011001100110011001100110011010
-```
-```
-0x562f9f2b6008```
-```
-```
-```
-0x7ffc0df71880	before vector on stack
-0x7ffc0df71884	vector declaration
-0x55baee57fe70	vector storage
-0x7ffc0df71890	after vector on stack
-0x7ffc0df71888	pointer on the stack
-0x55baee57fea0	mem on heap
-```
-```
-```
-Is A final? false
-Is B final? true
-```
-```
-Caught exception 2
-Standard exception cannot create std::vector larger than max_size()
-```
-4 max threads
-### false mutex
-
- A is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
-### true mutex
-
- B is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
-```
-```
-```
-```
-good() - file doesn't exists
-no good() - file doesn't exists
-good() - file does exists
-#include <fstream>
-#include <iostream>
-
-int main() {
-
-  std::string line;
-
-  {
-    std::fstream in("blah");
-    std::cout << "good() - file doesn't exists\n";
-    if (in.good())
-      while (std::getline(in, line))
-        std::cout << line << '\n';
-
-    std::cout << "no good() - file doesn't exists\n";
-    while (std::getline(in, line))
-      std::cout << line << '\n';
-  }
-
-  {
-    std::fstream in("getline.cpp");
-    std::cout << "good() - file does exists\n";
-    if (in.good())
-      while (std::getline(in, line))
-        std::cout << line << '\n';
-
-    std::cout << "no good() - file does exists\n";
-    while (std::getline(in, line))
-      std::cout << line << '\n';
-  }
-}
-no good() - file does exists
-```
-```
-0
-```
-```
-```
-```
-```
-```
-(1,0) (0,2)
 ```
 ```
 Implicit constructors
@@ -1441,40 +819,8 @@ Operator overloading
 A++
 ```
 ```
-ctor a
-ctor b1
-ctor b2
-	dtor b1
-	dtor b2
-ctor c
-	dtor c
-ctor d
-d is a pointer true
-	dtor d
-	dtor a
-```
-```
-Hello there
-What time is it?
-```
-```
-a ctor
-a ctor
-a ctor
-a ctor
-a ctor
-	a dtor
-	a dtor
-	a dtor
-	a dtor
-	a dtor
-```
-```
-5
-5
-6
-```
-```
+Is A final? false
+Is B final? true
 ```
 ```
 3125 Alice's public key
@@ -1600,4 +946,671 @@ a ctor
 4f6f.173642525642d.125656e19.14f2c2a.b4f4c4f255e.1184f2c2a.b64.14f6f.17364252564
 2d.125656e19.14c362c2a.b644f5e.154362c2a.b644f.14f6f.173642525642d.125656e19.14c
 362c2a.b4f4c6e2564195e.16b.b6e25.14f6f.173642525642d.125656e19.119646f2564195e.1
+```
+```
+1 0
+1
+0 1
+4
+```
+```
+(?:[0-9]{1,3}\.?){4}\s+\S+
+1000000000
+111122223333
+70f
+Total time 150
+```
+```
+1
+4
+9
+1
+2
+3
+```
+```
+4 elements
+1 2
+1 5
+3 2
+6 7
+```
+0x55f2b4421100 global
+0x55f2b44210a0 static 1
+0x7ffdd71a0320 stack
+0x55f2b4421040 static 2
+0x55f2b476ce70 heap
+0x7ffdd71a029e lambda
+0x7ffdd71a02a0 values1
+0x7ffdd71a02e0 values2
+0x55f2b4421108 member 1
+0x7ffdd71a0328 member 2
+	0
+	11
+	22
+	33
+	44
+	55
+	66
+	77
+```
+```
+1
+2
+3
+-1
+1
+2
+3
+-1
+```
+```
+3 size
+one
+two
+three
+
+3 size
+1
+2
+3
+0
+```
+```
+-20
+4294967280
+```
+```
+```
+```
+0x7ffe1c0935e0 b
+0x7ffe1c0935e8 d
+0x7ffe1c0935f0 d
+```
+```
+(a < b) is true
+(a > b) is false
+(a <= b) is true
+(a >= b) is false
+```
+```
+foo
+foo
+bar 0
+20
+```
+```
+1. A()
+2. A(const A &)
+4. A &operator=(A &)
+2. A(const A &)
+6. ~A()
+1. A()
+3. A(A &&)
+5. A &operator=(A &&)
+6. ~A()
+6. ~A()
+6. ~A()
+6. ~A()
+```
+```
+Match no
+```
+```
+ball caught
+```
+```
+100
+101
+102
+103
+104
+```
+```
+6 size
+```
+```
+iter 5
+iter 4
+iter 3
+cont 2
+cont 3
+cont 4
+0	1
+1	2
+2	3
+3	4
+4	5
+```
+```
+```
+```
+ctor a
+	dtor a
+```
+```
+```
+```
+Rows 500 Cols 1000
+0
+```
+```
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+```
+```
+```
+```
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3499211612
+581869302
+3890346734
+3586334585
+545404204
+```
+```
+```
+```
+```
+```
+b is 5
+c is 5
+```
+```
+10
+10
+```
+```
+-268435455
+1
+0
+0
+-0
+0
+```
+```
+5 test cases
+-------------------------
+-----
+
+----- actual
+_________________________
+_____
+
+_____ actual
+_____-----------_________
+_---_
+
+_---_ actual
+___________--------------
+__---
+
+__--- actual
+-_-_-_-_-_-_-_-_-_-_-_-_-
+-----
+
+----- actual
+```
+```
+257
+4112
+18446744073709551358
+0
+4369
+4369
+514
+128
+```
+```
+1000 values
+"FFFFFFFFFFFFFFFFFFFFE"
+49967
+```
+```
+./getline.cpp
+./ascending.txt
+./worker_pool.cpp
+./class_copy.cpp_
+./vector_resize.cpp
+./for_loop_index.cpp
+./classes.cpp
+./lambda_identity.cpp
+./static.cpp
+./maybe_unused.cpp
+./list-erase.cpp
+./return_value_optimisation.cpp
+./_config.yml
+./mutex.cpp
+./templated-lambdas.cpp
+./exceptions.cpp
+./class_war.cpp
+./class_params.cpp_
+./numeric.cpp
+./pop_front_hack.cpp
+./bitwise_operators.cpp
+./terminate_handler.cpp_
+./lambda_functions.cpp
+./move-range.cpp
+./friends.cpp
+./readme.md
+./multiple_inheritance_diamond.cpp
+./array.cpp
+./linkage2.cpp_
+./auto_refs.cpp
+./implicit-constructors.cpp
+./structures_and_unions.cpp
+./casting.cpp
+./wide_iterators.cpp
+./templates.cpp
+./mutable_keyword.cpp
+./random.bin
+./notes.cpp
+./inheritance2.cpp_
+./Dockerfile
+./complex.cpp
+./sets.cpp
+./relationalOperators.cpp
+./map_index.cpp
+./file_read_write.cpp
+./classes_construction_order.cpp
+./narrowing.cpp
+./fallthrough.cpp
+./exceptions-small-ram.cpp
+./only_shallow.cpp
+./ifs.cpp
+./midpoint_c++20.cpp_
+./pointers.cpp
+./istream_iterator.cpp
+./spaceship.cpp
+./template-nesting.cpp
+./optional.cpp
+./exceptions-in-destructors.cpp
+./makefile
+./recursive.cpp
+./designated_initialisers.cpp_
+./ratios.cpp
+./map_filter_reduce.cpp
+./pimpl.cpp
+./multiple_inheritance.cpp
+./unicode.cpp
+./exceptions2.cpp
+./vector_initialisation.cpp
+./list_init.cpp
+./function_pointers.cpp
+./rule_of_five.cpp
+./multimap.cpp
+./negative.cpp
+./virtual3.cpp
+./tokenise.cpp
+./abs_warning.cpp_
+./user_literals.cpp
+./tmp
+./regular_expressions.cpp
+./default_constructor_only.cpp
+./inheritance.cpp_
+./virtual1.cpp
+./strongly_typed_enums.cpp
+./cycles.cpp
+./reduce_c++20.cpp_
+./koenig.cpp
+./.git
+./fib.cpp
+./perms.cpp
+./any.cpp
+./widechars.cpp
+./threads.cpp_
+./segments.cpp
+./ternary_operator.cpp
+./structured_bindings.cpp_
+./rvalue-references.cpp
+./factory.cpp_
+./quoted.cpp
+./trade.cpp_
+./parallel-algorithms.cpp
+./templates_and_auto.cpp
+./uncaught_exceptions.cpp
+./parallel-exec.cpp
+./boolalpha_read.cpp
+./modulus.cpp
+./vector_capacity.cpp
+./dirty_cache.cpp
+./pairs.csv
+./non_virtual.cpp
+./exchange.cpp
+./partition.cpp
+./sales.cpp
+./incrementing_bools.cpp_
+./for_loops.cpp
+./const_vector.cpp
+./containers.cpp
+./async.cpp
+./functor.cpp
+./align.cpp
+./unique_pointer.cpp
+./size_of_classes.cpp
+./init_lists.cpp
+./shared_pointer.cpp
+./nonmember_begin_and_end.cpp
+./classes11.cpp
+./const_pointers.cpp
+./method_chaining.cpp
+./cryptography.cpp
+./floating_point.cpp
+./factorial.cpp
+./vector_storage.cpp
+./linkage1.cpp_
+./string_manipulation.cpp
+./stack-fibonacci.cpp_
+./.gitignore
+./generate.cpp
+./unordered_sets.cpp_
+./span_c++20.cpp_
+./heap_c++20.cpp_
+./filesystem.cpp
+./virtual_base_class.cpp
+./tutorials.cpp
+./ascending.bin
+./output.md
+./virtual2.cpp
+./classes_default_methods.cpp
+./classes14.cpp
+./auto_main.cpp
+./precision.cpp
+./algorithm.cpp
+```
+```
+1
+2
+3
+4
+5
+```
+```
+I am A
+I am A
+```
+```
+```
+```
+base
+derived
+```
+```
+Is A final? false Is B final? true
+```
+```
+Forward list
+1 30 -4 3 5 -4 1 6 -8 2 -5 64 1 92 
+Forward list partition 1
+-4 -4 -8 -5 
+Forward list partition 2
+5 30 1 6 1 2 3 64 1 92 
+Sorted vector
+-8 -5 -4 -4 1 1 1 2 3 5 6 30 64 92 
+Vector partion 1
+-8 -5 -4 -4 
+Vector partion 2
+1 1 1 2 3 5 6 30 64 92 
+Stable partition
+-4 -4 -8 -5 5 30 1 6 1 2 3 64 1 92 
+```
+```
+1
+2
+3
+2
+3
+4
+16
+4
+4
+```
+```
+0	00111110010011001100110011001101
+0	0011111111001001100110011001100110011001100110011001100110011010
+```
+```
+WORKERS
+8 workers
+0 1252
+1252 2504
+2504 3756
+3756 5008
+5008 6260
+6260 7512
+7512 8764
+8764 10013
+```
+```
+```
+```
+```
+```
+0x555cd789b008```
+```
+1
+2
+3
+4
+```
+```
+4321
+
+4321
+
+L3L2L1x
+M1x
+R1x
+M2L1x
+M1x
+R1x
+R2L1x
+M1x
+R1x
+M3L2L1x
+M1x
+R1x
+M2L1x
+M1x
+R1x
+R2L1x
+M1x
+R1x
+R3L2L1x
+M1x
+R1x
+M2L1x
+M1x
+R1x
+R2L1x
+M1x
+R1x
+
+
+PERM LIST
+4
+```
+```
+```
+create
+ctor
+ctor
+ctor
+ctor
+resize
+	dtor
+clear
+	dtor
+	dtor
+	dtor
+destroy
+```
+```
+0
+```
+```
+Caught exception 2
+Standard exception cannot create std::vector larger than max_size()
+```
+```
+```
+```
+good() - file doesn't exists
+no good() - file doesn't exists
+good() - file does exists
+#include <fstream>
+#include <iostream>
+
+int main() {
+
+  std::string line;
+
+  {
+    std::fstream in("blah");
+    std::cout << "good() - file doesn't exists\n";
+    if (in.good())
+      while (std::getline(in, line))
+        std::cout << line << '\n';
+
+    std::cout << "no good() - file doesn't exists\n";
+    while (std::getline(in, line))
+      std::cout << line << '\n';
+  }
+
+  {
+    std::fstream in("getline.cpp");
+    std::cout << "good() - file does exists\n";
+    if (in.good())
+      while (std::getline(in, line))
+        std::cout << line << '\n';
+
+    std::cout << "no good() - file does exists\n";
+    while (std::getline(in, line))
+      std::cout << line << '\n';
+  }
+}
+no good() - file does exists
+```
+```
+```
+```
+```
+```
+0x7ffd7e72d6c0	before vector on stack
+0x7ffd7e72d6c4	vector declaration
+0x55ba95acfe70	vector storage
+0x7ffd7e72d6d0	after vector on stack
+0x7ffd7e72d6c8	pointer on the stack
+0x55ba95acfea0	mem on heap
+```
+```
+(1,0) (0,2)
+```
+```
+ctor a
+ctor b1
+ctor b2
+	dtor b1
+	dtor b2
+ctor c
+	dtor c
+ctor d
+d is a pointer true
+	dtor d
+	dtor a
+```
+```
+Hello there
+What time is it?
+```
+8 max threads
+### false mutex
+
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A   B Dis is my name yesis it is oh yes it is 
+ my name yes it is  oh yes myit  nameis  
+yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+### true mutex
+
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
 ```
