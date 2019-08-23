@@ -2,7 +2,7 @@ strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
 soy_yo [label="laptop"]
-graph [label="./hosts2dot.sh - Fri 23 Aug 10:27:50 BST 2019" labelloc=top labeljust=left]
+graph [label="./hosts2dot.sh - Fri 23 Aug 10:36:09 BST 2019" labelloc=top labeljust=left]
 "127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
 soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
 "rate.sx # Command line crypto ticker" [fillcolor=red fontcolor=white]
