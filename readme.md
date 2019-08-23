@@ -1,6 +1,7 @@
-Generated Fri 23 Aug 13:03:17 BST 2019
+Generated Fri 23 Aug 13:40:06 BST 2019
 # agraph - PASS
-See build [artefacts](artefacts/agraph)
+- Build [artefacts](artefacts/agraph)
+- See the source on [GitHub](https://github.com/deanturpin/agraph)
 ```
 sh:             279 (67.88%)
 perl:            64 (15.57%)
@@ -11,7 +12,8 @@ Total Estimated Cost to Develop                           = $ 10,621
 ```
 
 # funktional - PASS
-See build [artefacts](artefacts/funktional)
+- Build [artefacts](artefacts/funktional)
+- See the source on [GitHub](https://github.com/deanturpin/funktional)
 ```
 sh:             277 (52.76%)
 cpp:            184 (35.05%)
@@ -21,7 +23,8 @@ Total Estimated Cost to Develop                           = $ 13,734
 ```
 
 # float-format - PASS
-See build [artefacts](artefacts/float-format)
+- Build [artefacts](artefacts/float-format)
+- See the source on [GitHub](https://github.com/deanturpin/float-format)
 ```
 sh:             277 (75.27%)
 perl:            64 (17.39%)
@@ -31,7 +34,8 @@ Total Estimated Cost to Develop                           = $ 9,458
 ```
 
 # spectrum-analyser - PASS
-See build [artefacts](artefacts/spectrum-analyser)
+- Build [artefacts](artefacts/spectrum-analyser)
+- See the source on [GitHub](https://github.com/deanturpin/spectrum-analyser)
 ```
 sh:             277 (48.85%)
 cpp:            226 (39.86%)
@@ -41,7 +45,8 @@ Total Estimated Cost to Develop                           = $ 14,890
 ```
 
 # tony - PASS
-See build [artefacts](artefacts/tony)
+- Build [artefacts](artefacts/tony)
+- See the source on [GitHub](https://github.com/deanturpin/tony)
 ```
 sh:             277 (69.25%)
 perl:            64 (16.00%)
@@ -51,7 +56,8 @@ Total Estimated Cost to Develop                           = $ 10,323
 ```
 
 # bigo - PASS
-See build [artefacts](artefacts/bigo)
+- Build [artefacts](artefacts/bigo)
+- See the source on [GitHub](https://github.com/deanturpin/bigo)
 ```
 sh:             277 (63.82%)
 cpp:             93 (21.43%)
@@ -61,7 +67,8 @@ Total Estimated Cost to Develop                           = $ 11,246
 ```
 
 # cpp - PASS
-See build [artefacts](artefacts/cpp)
+- Build [artefacts](artefacts/cpp)
+- See the source on [GitHub](https://github.com/deanturpin/cpp)
 ```
 cpp:           2394 (87.53%)
 sh:             277 (10.13%)
@@ -71,7 +78,8 @@ Total Estimated Cost to Develop                           = $ 77,705
 ```
 
 # curly - PASS
-See build [artefacts](artefacts/curly)
+- Build [artefacts](artefacts/curly)
+- See the source on [GitHub](https://github.com/deanturpin/curly)
 ```
 cpp:             98 (70.50%)
 python:          30 (21.58%)
@@ -81,7 +89,8 @@ Total Estimated Cost to Develop                           = $ 3,403
 ```
 
 # yogr - FAIL
-See build [artefacts](artefacts/yogr)
+- Build [artefacts](artefacts/yogr)
+- See the source on [GitHub](https://github.com/deanturpin/yogr)
 ```
 sh:             279 (81.34%)
 perl:            64 (18.66%)
@@ -90,7 +99,8 @@ Total Estimated Cost to Develop                           = $ 8,784
 ```
 
 # handt - PASS
-See build [artefacts](artefacts/handt)
+- Build [artefacts](artefacts/handt)
+- See the source on [GitHub](https://github.com/deanturpin/handt)
 ```
 cpp:            558 (57.64%)
 sh:             277 (28.62%)
@@ -101,7 +111,8 @@ Total Estimated Cost to Develop                           = $ 26,110
 ```
 
 # cerberus - PASS
-See build [artefacts](artefacts/cerberus)
+- Build [artefacts](artefacts/cerberus)
+- See the source on [GitHub](https://github.com/deanturpin/cerberus)
 ```
 sh:             277 (65.64%)
 python:          81 (19.19%)
@@ -111,7 +122,8 @@ Total Estimated Cost to Develop                           = $ 10,920
 ```
 
 # hosts2dot - PASS
-See build [artefacts](artefacts/hosts2dot)
+- Build [artefacts](artefacts/hosts2dot)
+- See the source on [GitHub](https://github.com/deanturpin/hosts2dot)
 ```
 sh:             298 (82.32%)
 perl:            64 (17.68%)
@@ -169,7 +181,7 @@ CPU family:          6
 Model:               78
 Model name:          Intel(R) Core(TM) m3-6Y30 CPU @ 0.90GHz
 Stepping:            3
-CPU MHz:             1000.067
+CPU MHz:             2021.529
 CPU max MHz:         2200.0000
 CPU min MHz:         400.0000
 BogoMIPS:            3024.00

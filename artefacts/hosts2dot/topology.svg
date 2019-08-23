@@ -9,7 +9,7 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 423)">
 <title>%3</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-423 971,-423 971,4 -4,4"/>
-<text text-anchor="middle" x="147.5" y="-403.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">./hosts2dot.sh &#45; Fri 23 Aug 13:04:48 BST 2019</text>
+<text text-anchor="middle" x="147.5" y="-403.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">./hosts2dot.sh &#45; Fri 23 Aug 13:41:49 BST 2019</text>
 <!-- soy_yo -->
 <g id="node1" class="node">
 <title>soy_yo</title>
@@ -123,7 +123,7 @@
 <!-- brignull.com # Harry&#39;s website -->
 <g id="node11" class="node">
 <title>brignull.com # Harry&#39;s website</title>
-<path fill="#ff0000" stroke="#ffffff" d="M796,-36C796,-36 623,-36 623,-36 617,-36 611,-30 611,-24 611,-24 611,-12 611,-12 611,-6 617,0 623,0 623,0 796,0 796,0 802,0 808,-6 808,-12 808,-12 808,-24 808,-24 808,-30 802,-36 796,-36"/>
+<path fill="#00ff00" stroke="#ffffff" d="M796,-36C796,-36 623,-36 623,-36 617,-36 611,-30 611,-24 611,-24 611,-12 611,-12 611,-6 617,0 623,0 623,0 796,0 796,0 802,0 808,-6 808,-12 808,-12 808,-24 808,-24 808,-30 802,-36 796,-36"/>
 <text text-anchor="middle" x="709.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">brignull.com # Harry&#39;s website</text>
 </g>
 <!-- 2a01:4c8:f800:c06::2&#45;&#45;brignull.com # Harry&#39;s website -->
