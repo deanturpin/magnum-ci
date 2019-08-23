@@ -33,6 +33,12 @@ main caught straggler 2
 ```
 ```
 ```
+<<<<<<< HEAD
+=======
+8 sizeof a
+8 sizeof b
+8 sizeof c
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 create test vector
@@ -58,6 +64,7 @@ start
 done
 ```
 ```
+<<<<<<< HEAD
 0 uncaught exceptions
 ```
 ```
@@ -70,6 +77,36 @@ done
 Address of a 0x7ffebdefee44
 56ab55aa
 Does b equal a? false
+=======
+```
+```
+iter 5
+iter 4
+iter 3
+cont 2
+cont 3
+cont 4
+0	1
+1	2
+2	3
+3	4
+4	5
+```
+```
+10
+10
+```
+```
+1
+4
+9
+1
+2
+3
+```
+```
+ball caught
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 Overload not override
@@ -77,6 +114,7 @@ foo
 bar
 ```
 ```
+<<<<<<< HEAD
 foo 5 bah 6
 p 6 q 5
 3.14
@@ -107,6 +145,13 @@ bar
 ```
 50 elements
 0
+=======
+I am A
+I am A
+```
+```
+start
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 1
 2
 3
@@ -232,6 +277,7 @@ stack size 8
 	1
 ```
 ```
+<<<<<<< HEAD
 *
 0	d
 1	a
@@ -276,6 +322,124 @@ function	559e85bbe195
 ```
 ```
 ```
+=======
+50 elements
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1
+0
+1
+1
+1
+2
+1
+3
+1
+4
+1
+5
+1
+6
+1
+7
+1
+8
+1
+9
+2
+0
+2
+1
+2
+2
+2
+3
+2
+4
+2
+5
+2
+6
+2
+7
+2
+8
+2
+9
+```
+```
+0
+17506
+1
+9511
+2
+19353
+3
+24503
+4
+10372
+5
+11353
+6
+7153
+7
+5630
+8
+29439
+9
+32511
+```
+```
+Is A final? false Is B final? true
+```
+```
+```
+```
+```
+```
+foo 5 bah 6
+p 6 q 5
+3.14
+1078523331
+```
+```
+```
+```
+1
+1
+```
+```
+3 size
+one
+two
+three
+
+3 size
+1
+2
+3
+0
+```
+```
+ram lower 0
+ram upper 80000000
+static_global1	562114421138
+static_global2	562114421014
+static_local1	562114421134
+static_local2	562114421010
+local_var1	7fffe2e92550
+local_var2	7fffe2e92554
+dynamic_local	562115d06e80
+function	56211441e195
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 Don't
@@ -290,6 +454,23 @@ finger.
 120 factorial4
 ```
 ```
+<<<<<<< HEAD
+=======
+1--
+2--
+3--
+4--
+5--
+1--
+2--
+3--
+4--
+5--
+```
+```
+```
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 0
 1
 1.09051
@@ -302,6 +483,7 @@ finger.
 1.31607
 ```
 ```
+<<<<<<< HEAD
 do1
 do2
 ```
@@ -327,6 +509,9 @@ b ctor
 ```
 ```
 ```
+=======
+⣿
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 6 items, 1 budget
@@ -704,10 +889,15 @@ class alignas(32) B {};
 8	alignof(double)
 ```
 ```
+```
 30 elements
 5 elements
 ```
 ```
+<<<<<<< HEAD
+=======
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 1
 4
 9
@@ -722,6 +912,7 @@ OUT	one 1.1234567890e+00 false true
 IN	one 1.1234570000e+00 false true
 ```
 ```
+<<<<<<< HEAD
 1
 1
 ```
@@ -743,12 +934,44 @@ IN	one 1.1234570000e+00 false true
 3--
 4--
 5--
+=======
+0x556ff5c18100 global
+0x556ff5c180a0 static 1
+0x7ffdf8068530 stack
+0x556ff5c18040 static 2
+0x556ff6f95e70 heap
+0x7ffdf80684ae lambda
+0x7ffdf80684b0 values1
+0x7ffdf80684f0 values2
+0x556ff5c18108 member 1
+0x7ffdf8068538 member 2
+	0
+	11
+	22
+	33
+	44
+	55
+	66
+	77
+```
+```
+1
+```
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 Nano is 1 / 1000000000 Value of third is 0.333333
 ```
 ```
+<<<<<<< HEAD
 "blah" is my name
+=======
+Match no
+```
+```
+Nano is 1 / 1000000000 Value of third is 0.333333
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 constructor_calls 2049
@@ -802,9 +1025,19 @@ ctor
 Copy constructor
 copy ```
 ```
+<<<<<<< HEAD
 sdf
 sdf
 
+=======
+(?:[0-9]{1,3}\.?){4}\s+\S+
+1000000000
+111122223333
+70f
+Total time 150
+```
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 1
 2
 3
@@ -954,13 +1187,6 @@ Is B final? true
 4
 ```
 ```
-(?:[0-9]{1,3}\.?){4}\s+\S+
-1000000000
-111122223333
-70f
-Total time 150
-```
-```
 1
 4
 9
@@ -1034,6 +1260,37 @@ three
 (a >= b) is false
 ```
 ```
+<<<<<<< HEAD
+=======
+5 test cases
+-------------------------
+-----
+
+----- actual
+_________________________
+_____
+
+_____ actual
+_____-----------_________
+_---_
+
+_---_ actual
+___________--------------
+__---
+
+__--- actual
+-_-_-_-_-_-_-_-_-_-_-_-_-
+-----
+
+----- actual
+```
+```
+0x7fff1c28b060 b
+0x7fff1c28b068 d
+0x7fff1c28b070 d
+```
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 foo
 foo
 bar 0
@@ -1054,10 +1311,19 @@ bar 0
 6. ~A()
 ```
 ```
+<<<<<<< HEAD
 Match no
 ```
 ```
 ball caught
+=======
+one, 1
+one, 2
+one, 1
+one, 1
+two, 2
+Searching... found 1.000000
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 100
@@ -1067,6 +1333,7 @@ ball caught
 104
 ```
 ```
+<<<<<<< HEAD
 6 size
 ```
 ```
@@ -1081,6 +1348,9 @@ cont 4
 2	3
 3	4
 4	5
+=======
+I am functor
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 ```
@@ -1170,6 +1440,7 @@ b is 5
 c is 5
 ```
 ```
+<<<<<<< HEAD
 10
 10
 ```
@@ -1203,6 +1474,11 @@ __--- actual
 -----
 
 ----- actual
+=======
+1000 values
+"FFFFFFFFFFFFFFFFFFFFE"
+47629
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 257
@@ -1372,6 +1648,7 @@ __--- actual
 ./algorithm.cpp
 ```
 ```
+<<<<<<< HEAD
 1
 2
 3
@@ -1392,6 +1669,13 @@ derived
 Is A final? false Is B final? true
 ```
 ```
+=======
+Address of a 0x7ffe8269a7e4
+56ab55aa
+Does b equal a? false
+```
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 Forward list
 1 30 -4 3 5 -4 1 6 -8 2 -5 64 1 92 
 Forward list partition 1
@@ -1408,6 +1692,7 @@ Stable partition
 -4 -4 -8 -5 5 30 1 6 1 2 3 64 1 92 
 ```
 ```
+<<<<<<< HEAD
 1
 2
 3
@@ -1447,6 +1732,8 @@ WORKERS
 4
 ```
 ```
+=======
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 4321
 
 4321
@@ -1485,6 +1772,7 @@ PERM LIST
 ```
 ```
 ```
+<<<<<<< HEAD
 create
 ctor
 ctor
@@ -1497,6 +1785,23 @@ clear
 	dtor
 	dtor
 destroy
+=======
+```
+0	00111110010011001100110011001101
+0	0011111111001001100110011001100110011001100110011001100110011010
+```
+```
+0x560b0a229008```
+```
+```
+```
+0x7ffe07ca58f0	before vector on stack
+0x7ffe07ca58f4	vector declaration
+0x5598e16ffe70	vector storage
+0x7ffe07ca5900	after vector on stack
+0x7ffe07ca58f8	pointer on the stack
+0x5598e16ffea0	mem on heap
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 ```
 0
@@ -1505,7 +1810,52 @@ destroy
 Caught exception 2
 Standard exception cannot create std::vector larger than max_size()
 ```
+<<<<<<< HEAD
+=======
 ```
+4 max threads
+### false mutex
+
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+### true mutex
+
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
+```
+```
+```
+0
 ```
 ```
 good() - file doesn't exists
@@ -1545,9 +1895,12 @@ int main() {
 no good() - file does exists
 ```
 ```
+<<<<<<< HEAD
 ```
 ```
 ```
+=======
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ```
 0x7ffd7e72d6c0	before vector on stack
 0x7ffd7e72d6c4	vector declaration
@@ -1557,9 +1910,20 @@ no good() - file does exists
 0x55ba95acfea0	mem on heap
 ```
 ```
+```
+<<<<<<< HEAD
+=======
+Implicit constructors
+
+Operator overloading
+++A
+A++
+```
+```
 (1,0) (0,2)
 ```
 ```
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 ctor a
 ctor b1
 ctor b2
@@ -1573,11 +1937,126 @@ d is a pointer true
 	dtor a
 ```
 ```
+<<<<<<< HEAD
 Hello there
 What time is it?
 ```
 8 max threads
 ### false mutex
+=======
+a ctor
+a ctor
+a ctor
+a ctor
+a ctor
+	a dtor
+	a dtor
+	a dtor
+	a dtor
+	a dtor
+```
+```
+5
+5
+6
+```
+```
+Hello there
+What time is it?
+```
+```
+```
+```
+3125 Alice's public key
+625 Bill's public key
+-2 Alice's secret key
+-2 Bill's secret key
+
+--- plaintext
+4120666577207175657374696f6e7320746861742049206e65656420746f206b6e6f772e20486f77
+20796f7520636f756c6420657665722068757274206d6520736f2e2049206e65656420746f206b6e
+6f772077686174204927766520646f6e652077726f6e672e20416e6420686f77206c6f6e67206974
+2773206265656e20676f696e67206f6e2e2020202020202020202020202020202020202020202020
+206c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c20
+6c6c6c6c6c6c6c6c6c6c6c20206c6c6c20206c6c6c6c20206c6c6c6c2020206c6c6c6c6c6c6c6c6c
+6c6c6c6c6c6c6c6c6c6c20206c6c6c20206c6c6c6c6c6c6c6c6c6c6c20206c6c6c6c6c6c6c6c6c6c
+6c6c6c6c6c6c6c6c6c202020202020206c6c6c6c20206c6c6c6c6c20206c6c6c6c6c6c6c6c6c6c6c
+6c6c6c6c6c6c6c6c20206c6c6c20206c6c6c6c20206c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c
+6c6c6c6c6c6c6c20206c6c6c20206c6c6c6c20206c6c6c6c6c20206c6c6c6c6c6c6c6c6c6c6c6c6c
+206c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c6c20
+42656175746966756c20697320626574746572207468616e2075676c792e204578706c6963697420
+697320626574746572207468616e20696d706c696369742e2053696d706c65206973206265747465
+72207468616e20636f6d706c65782e20436f6d706c657820697320626574746572207468616e2063
+6f6d706c6963617465642e20466c617420697320626574746572207468616e206e65737465642e20
+
+--- rotate
+42216766782172766674756a706f742175696275214a216f666665217570216c6f70782f21497078
+217a7076216470766d6521667766732169767375216e662174702f214a216f666665217570216c6f
+70782178696275214a2877662165706f66217873706f682f21426f6521697078216d706f68216a75
+2874216366666f2168706a6f6821706f2f2121212121212121212121212121212121212121212121
+216d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d21
+6d6d6d6d6d6d6d6d6d6d6d21216d6d6d21216d6d6d6d21216d6d6d6d2121216d6d6d6d6d6d6d6d6d
+6d6d6d6d6d6d6d6d6d6d21216d6d6d21216d6d6d6d6d6d6d6d6d6d6d21216d6d6d6d6d6d6d6d6d6d
+6d6d6d6d6d6d6d6d6d212121212121216d6d6d6d21216d6d6d6d6d21216d6d6d6d6d6d6d6d6d6d6d
+6d6d6d6d6d6d6d6d21216d6d6d21216d6d6d6d21216d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d
+6d6d6d6d6d6d6d21216d6d6d21216d6d6d6d21216d6d6d6d6d21216d6d6d6d6d6d6d6d6d6d6d6d6d
+216d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d21
+43666276756a67766d216a7421636675756673217569626f2176686d7a2f214679716d6a646a7521
+6a7421636675756673217569626f216a6e716d6a646a752f21546a6e716d66216a74216366757566
+73217569626f2164706e716d66792f2144706e716d6679216a7421636675756673217569626f2164
+706e716d6a64627566652f21476d6275216a7421636675756673217569626f216f66747566652f21
+
+--- key schedule
+422269697c26787d6e7d7f757c7c.230.57a74.8355f37.67e7f7f3c11.d3f.b.f111a52456e161f
+49231a214d111e251d1653192b1b2958212f2d305d2b246034317164.e66352d2e2e6b403c6e3a3e
+4049734b3d374b7822.151417d424e4e46.25a5654544e16.92b5950.d565e67115e62625c16606c
+206d1b5e62636d2068716c726c267676372a2b2c2d2e2f303132333435363738393a3b3c3d3e3f40
+41.e.f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323368
+35363738393a3b3c3d3e3f7475424344797a4748494a7f.04d4e4f50.5.6.75455565758595a5b5c
+5d5e5f606162636465661b1c696a6b20216e6f7071727374757677782d2e7b7c7d7e7f.0.1.2.3.4
+.5.6.7.8.9.a.b.c.d42434445464748151617184d4e1b1c1d1e1f545522232425262728292a2b2c
+2d2e2f3031323334696a3738396e6f3c3d3e3f747542434445464748494a4b4c4d4e4f5051525354
+55565758595a5b10115e5f601516636465661b1c696a6b6c6d2223707172737475767778797a7b7c
+317e7f.0.1.2.3.4.5.6.7.8.9.a.b.c.d.e.f101112131415161718191a1b1c1d1e1f2021222358
+7b1f1c31312725352d622c3765282c3c3d2f3d6c4136303e71473a404e.4771d514a4745404753.0
+4a55.3464a5a5b4d5b.a5f544e5c.f595e625f5d585f6b26194d64696d6a64206a7523666a7a7b6d
+7b2a7f746e7c2f73.07f.3.07a.e45385c.9.8.c.9.31740.a1543.6.a1a1b.d1b4a1f14.e1c4f13
+201f23201e19182c1e1e695c.32a2034612b3664272b3b3c2e3c6b40352f3d703f3746483a3a.578
+
+--- add previous
+42634a3028493b3117.b.06a5a493d5e533c1e13347e1f.e745a3f6055456652413129587942322a
+4b45352b4c302016.368.96f664c3f60493f322748361c3d312150713b5c4b31177c1d12.223.f7e
+6e66.77f684a3f602a52492f503525147a1b13.676654d7c1d5f4e33543d2d25463323127a1b.57a
+2216371a.06655765e4e3827.f3020.f3e5f.0214263.4254667.8294a6b.c2d4e6f103152731435
+5643301d.a7764513e2b18.5725f4c392613.06d5a473421.e7b6855422f1c.97663503d2a17.425
+127f6c59463320.d7a67547516.3705d7e1f.c7966537415.26f5c496a.b2c19.673604d3a2714.1
+6e5b483522.f7c69564364.5725f4c6d.e7b6855422f1c.97663503d5e7f6c59463320.d7a675441
+2e1b.875624f3c29163758791a3b5c7d6a5744315273604d3a2714355643301d.a7764513e2b18.5
+725f4c392613.06d.e2f1c.976173825127f6c.d2e1b.875624f3c2916.3705d4a3724117e6b5845
+321f.c7966534061.26f5c496a.b7865523f60.16e5b4835224364513e2b18.5725f4c392613.06d
+.e7b6855422f1c.97663503d2a17.4715e4b3825127f6c59463320.d7a6754412e1b.875624f3c5d
+20.6685e533d241a.72812.627.a70655a403354493214.3241a.26f6918397f7869564024.e.324
+.e.223.66c61563c2f50452e107f20.a7869564024.e.3325327117f705d43644e4263462c21167c
+6f10.56e503f6044342213.0665f.e2f736351422f15.e2f19.d2e11776c61473a5b50391b.a2b.f
+7f6d5e4b35197b70563b6a.b523f211637211536197f74694f4263584123123322.87c71573c6b.c
+
+--- decrypt
+412128.72028121e78126d7c5d6b51.c4675286a49346a2350.9352a2a1a4b.63a763225536e4366
+64605456753a65305215737b6a615d.24678396d5a5b407c346c63.d2d2e1c14.279236e13.f7f7e
+6f76106e79506e7138192f7f5064405326741e67.e5676.51747.62c271517.d387a286910.a7a7f
+22734356293c185d.04d6a3c525d424c716d12.e332f5450757116123733585479751a163b375c58
+7d456a32571f44.c31791e66.b537840652d521a3f.72c741961.64e733b60284d153a.2276f1410
+.17d6e6a5b57484435312252433f302c514d3e3a2b274c483935262247436830551d42.a2f771c64
+.951763e632b50183d.55e264b133834592146.e337b2068.d557a421b63.850753d622a4f173c.4
+2971165e.34b70385d597e7a1f1b403c2d291a163b3728241511.232231f10.c7d796a6657534440
+312d1e1a.b.778741915.6.273231410.17d6e1e.f.b7c7869655652433f302c1d19.a.677736460
+514d3e3a2b2718483935262247433430211d423e2f2b1c18.9392a261713.4.0716d5e5a4b473834
+592146.e337b2068.d557a42672f541c41.92e761b63.850753d622a4f173c.42971165e.34b706c
+33521548.a3271285e49483d69204f15447b371c2c.5.e742f6a175711.6324c2b3d18277c117132
+5b267c.9627e57644a.53f6e215d424730381d22.1.c763b17.f.17d726a58.b427f636249573e3d
+315e2647.836291a19.8.a75706e1f.f637f51703e563777216b424e28431d29104a.5336722.8.6
+787469615345353a1b1f4a40112d732214.c.82d6b1360.8467b677050523f732e59224e.8333754
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 
  A is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 

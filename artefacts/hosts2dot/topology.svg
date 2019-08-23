@@ -8,8 +8,13 @@
  viewBox="0.00 0.00 1495.00 643.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 639)">
 <title>%3</title>
+<<<<<<< HEAD
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-639 1491,-639 1491,4 -4,4"/>
 <text text-anchor="middle" x="172" y="-619.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">./hosts2dot.sh &#45; Fri Aug 23 13:48:44 BST 2019</text>
+=======
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-423 971,-423 971,4 -4,4"/>
+<text text-anchor="middle" x="147.5" y="-403.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">./hosts2dot.sh &#45; Fri 23 Aug 13:41:49 BST 2019</text>
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 <!-- soy_yo -->
 <g id="node1" class="node">
 <title>soy_yo</title>
@@ -159,11 +164,19 @@
 <title>ae0.cbs02.cs01.den01.networklayer.com&#45;&#45;ae1.cbs01.eq01.sjc02.networklayer.com</title>
 <path fill="none" stroke="#000000" d="M643,-431.8314C643,-421 643,-407.2876 643,-396.4133"/>
 </g>
+<<<<<<< HEAD
 <!-- ae23.bbr01.eq01.sjc02.networklayer.com -->
 <g id="node12" class="node">
 <title>ae23.bbr01.eq01.sjc02.networklayer.com</title>
 <path fill="#d3d3d3" stroke="#ffffff" d="M788,-324C788,-324 498,-324 498,-324 492,-324 486,-318 486,-312 486,-312 486,-300 486,-300 486,-294 492,-288 498,-288 498,-288 788,-288 788,-288 794,-288 800,-294 800,-300 800,-300 800,-312 800,-312 800,-318 794,-324 788,-324"/>
 <text text-anchor="middle" x="643" y="-302.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#000000">ae23.bbr01.eq01.sjc02.networklayer.com</text>
+=======
+<!-- brignull.com # Harry&#39;s website -->
+<g id="node11" class="node">
+<title>brignull.com # Harry&#39;s website</title>
+<path fill="#00ff00" stroke="#ffffff" d="M796,-36C796,-36 623,-36 623,-36 617,-36 611,-30 611,-24 611,-24 611,-12 611,-12 611,-6 617,0 623,0 623,0 796,0 796,0 802,0 808,-6 808,-12 808,-12 808,-24 808,-24 808,-30 802,-36 796,-36"/>
+<text text-anchor="middle" x="709.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#ffffff">brignull.com # Harry&#39;s website</text>
+>>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 </g>
 <!-- ae1.cbs01.eq01.sjc02.networklayer.com&#45;&#45;ae23.bbr01.eq01.sjc02.networklayer.com -->
 <g id="edge11" class="edge">

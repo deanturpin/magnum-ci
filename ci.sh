@@ -27,7 +27,8 @@ for repo in ${repos[@]}; do
 
 	# Clone
 	echo Cloning $repo into $subdir >&2
-	git clone --depth=1 https://github.com/deanturpin/$repo $subdir || continue
+	url=https://github.com/deanturpin
+	git clone --depth=1 $url/$repo $subdir || continue
 
 	# Make directory for build artefacts
 	artefacts=../../artefacts/$repo
@@ -51,7 +52,8 @@ for repo in ${repos[@]}; do
 		cp $file $artefacts
 	done
 	
-	echo "See build [artefacts](artefacts/$repo)"
+	echo "- Build [artefacts](artefacts/$repo)"
+	echo "- See the source on [GitHub](https://github.com/deanturpin/$repo)"
 	popd > /dev/null
 
 	# Line count and cost
