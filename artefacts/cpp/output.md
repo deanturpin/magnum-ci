@@ -1,8 +1,6 @@
 
 ```
-8 sizeof a
-8 sizeof b
-8 sizeof c
+0
 ```
 ```
 Caught
@@ -12,6 +10,11 @@ C dtor
 B dtor
 A dtor
 main caught straggler 2
+```
+```
+8 sizeof a
+8 sizeof b
+8 sizeof c
 ```
 ```
 ```
@@ -24,8 +27,8 @@ test vector complete
 100013 size
 25004 elements per thread
 start
-start
 done
+start
 done
 start
 done
@@ -61,57 +64,51 @@ ball caught
 3
 ```
 ```
-foo
-foo
-bar 0
-20
-```
-```
 I am A
 I am A
-```
-```
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
-start
-1
-2
-3
-4
-5
-6
-erase
-1
-2
-3
-6
 ```
 ```
 Overload not override
 foo
 bar
+```
+```
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
+start
+1
+2
+3
+4
+5
+6
+erase
+1
+2
+3
+6
 ```
 ```
 Impl ctor
@@ -140,6 +137,15 @@ B5 C6
 1200
 D6 D#6
 10000
+```
+```
+FIXED
+OUT	one 1.123456789 false true
+IN	one 1.123456789 false true
+
+SCIENTIFIC
+OUT	one 1.1234567890e+00 false true
+IN	one 1.1234570000e+00 false true
 ```
 ```
 ctor
@@ -194,13 +200,26 @@ stack size 8
 	1
 ```
 ```
-FIXED
-OUT	one 1.123456789 false true
-IN	one 1.123456789 false true
-
-SCIENTIFIC
-OUT	one 1.1234567890e+00 false true
-IN	one 1.1234570000e+00 false true
+0
+17506
+1
+9511
+2
+19353
+3
+24503
+4
+10372
+5
+11353
+6
+7153
+7
+5630
+8
+29439
+9
+32511
 ```
 ```
 50 elements
@@ -261,30 +280,6 @@ Is A final? false Is B final? true
 ```
 ```
 ```
-0
-17506
-1
-9511
-2
-19353
-3
-24503
-4
-10372
-5
-11353
-6
-7153
-7
-5630
-8
-29439
-9
-32511
-```
-```
-```
-```
 ```
 ```
 foo 5 bah 6
@@ -295,6 +290,8 @@ p 6 q 5
 ```
 1
 1
+```
+```
 ```
 ```
 3 size
@@ -311,14 +308,14 @@ three
 ```
 ram lower 0
 ram upper 80000000
-static_global1	55b2b4b96138
-static_global2	55b2b4b96014
-static_local1	55b2b4b96134
-static_local2	55b2b4b96010
-local_var1	7ffca8bf3e80
-local_var2	7ffca8bf3e84
-dynamic_local	55b2b532de80
-function	55b2b4b93195
+static_global1	558662e48138
+static_global2	558662e48014
+static_local1	558662e48134
+static_local2	558662e48010
+local_var1	7ffd53751a80
+local_var2	7ffd53751a84
+dynamic_local	5586633eae80
+function	558662e45195
 ```
 ```
 Don't
@@ -347,6 +344,9 @@ finger.
 ```
 ```
 ```
+⣿
+```
+```
 0
 1
 1.09051
@@ -357,9 +357,6 @@ finger.
 1.27537
 1.29684
 1.31607
-```
-```
-⣿
 ```
 ```
 6 items, 1 budget
@@ -787,18 +784,16 @@ class alignas(32) B {};
 ```
 "blah" is my name
 ```
-```
-```
-0x55bbe2b8c100 global
-0x55bbe2b8c0a0 static 1
-0x7fff3c60b2f0 stack
-0x55bbe2b8c040 static 2
-0x55bbe3ab3e70 heap
-0x7fff3c60b26e lambda
-0x7fff3c60b270 values1
-0x7fff3c60b2b0 values2
-0x55bbe2b8c108 member 1
-0x7fff3c60b2f8 member 2
+0x55720fb19100 global
+0x55720fb190a0 static 1
+0x7ffde190c7c0 stack
+0x55720fb19040 static 2
+0x5572104a9e70 heap
+0x7ffde190c73e lambda
+0x7ffde190c740 values1
+0x7ffde190c780 values2
+0x55720fb19108 member 1
+0x7ffde190c7c8 member 2
 	0
 	11
 	22
@@ -809,7 +804,12 @@ class alignas(32) B {};
 	77
 ```
 ```
+```
+```
 1
+```
+```
+Match no
 ```
 ```
 create
@@ -829,19 +829,16 @@ destroy
 Nano is 1 / 1000000000 Value of third is 0.333333
 ```
 ```
-Match no
-```
-```
 constructor_calls 2049
 copy_constructor_calls 6144
 ```
 ```
--20
-4294967280
-```
-```
 17 default constructor calls
 48 copy constructor calls
+```
+```
+-20
+4294967280
 ```
 ```
 sdf
@@ -895,20 +892,6 @@ ctor
 Copy constructor
 copy ```
 ```
-(?:[0-9]{1,3}\.?){4}\s+\S+
-1000000000
-111122223333
-70f
-Total time 150
-```
-```
-4 elements
-1 2
-1 5
-3 2
-6 7
-```
-```
 1
 1
 1
@@ -936,12 +919,26 @@ Total time 150
 545404204
 ```
 ```
+(?:[0-9]{1,3}\.?){4}\s+\S+
+1000000000
+111122223333
+70f
+Total time 150
+```
+```
 1
 2
 3
 4
 ```
 ```
+4 elements
+1 2
+1 5
+3 2
+6 7
+```
+```
 1
 2
 3
@@ -951,6 +948,13 @@ Total time 150
 3
 -1
 ```
+```
+```
+```
+(a < b) is true
+(a > b) is false
+(a <= b) is true
+(a >= b) is false
 ```
 ```
 5 test cases
@@ -976,11 +980,9 @@ __--- actual
 ----- actual
 ```
 ```
-```
-(a < b) is true
-(a > b) is false
-(a <= b) is true
-(a >= b) is false
+0x7ffe6a539f10 b
+0x7ffe6a539f18 d
+0x7ffe6a539f20 d
 ```
 ```
 1. A()
@@ -997,9 +999,17 @@ __--- actual
 6. ~A()
 ```
 ```
-0x7ffdf3731330 b
-0x7ffdf3731338 d
-0x7ffdf3731340 d
+foo
+foo
+bar 0
+20
+```
+```
+100
+101
+102
+103
+104
 ```
 ```
 one, 1
@@ -1010,22 +1020,13 @@ two, 2
 Searching... found 1.000000
 ```
 ```
-```
-```
-100
-101
-102
-103
-104
-```
-```
 I am functor
 ```
 ```
 ```
 ```
-```
 6 size
+```
 ```
 ctor a
 	dtor a
@@ -1043,20 +1044,20 @@ Rows 500 Cols 1000
 4
 ```
 ```
+0 uncaught exceptions
+```
+```
+```
+```
 ```
 ```
 b is 5
 c is 5
 ```
 ```
-0 uncaught exceptions
-```
-```
-```
-```
 1000 values
 "FFFFFFFFFFFFFFFFFFFFE"
-46751
+45526
 ```
 ```
 257
@@ -1187,7 +1188,6 @@ c is 5
 ./segments.cpp
 ./for_loop_index.cpp
 ./ternary_operator.cpp
-./.travis.yml
 ./array.cpp
 ./ratios.cpp
 ./ascending.bin
@@ -1230,9 +1230,10 @@ c is 5
 ./structures_and_unions.cpp
 ```
 ```
-Address of a 0x7ffd315d5d34
+Address of a 0x7ffe2990b7a4
 56ab55aa
 Does b equal a? false
+```
 ```
 ```
 Forward list
@@ -1249,7 +1250,6 @@ Vector partion 2
 1 1 1 2 3 5 6 30 64 92 
 Stable partition
 -4 -4 -8 -5 5 30 1 6 1 2 3 64 1 92 
-```
 ```
 4321
 
@@ -1309,12 +1309,6 @@ derived
 ```
 ```
 ```
-```
-```
-0	00111110010011001100110011001101
-0	0011111111001001100110011001100110011001100110011001100110011010
-```
-```
 1
 2
 3
@@ -1326,16 +1320,23 @@ derived
 4
 ```
 ```
-0x55d088079008```
+```
+```
+0	00111110010011001100110011001101
+0	0011111111001001100110011001100110011001100110011001100110011010
+```
+```
+0x562f9f2b6008```
 ```
 ```
 ```
-0x7ffe4b4f2c60	before vector on stack
-0x7ffe4b4f2c64	vector declaration
-0x5639ea44ee70	vector storage
-0x7ffe4b4f2c70	after vector on stack
-0x7ffe4b4f2c68	pointer on the stack
-0x5639ea44eea0	mem on heap
+0x7ffc0df71880	before vector on stack
+0x7ffc0df71884	vector declaration
+0x55baee57fe70	vector storage
+0x7ffc0df71890	after vector on stack
+0x7ffc0df71888	pointer on the stack
+0x55baee57fea0	mem on heap
+```
 ```
 ```
 Is A final? false
@@ -1345,10 +1346,14 @@ Is B final? true
 Caught exception 2
 Standard exception cannot create std::vector larger than max_size()
 ```
-```
 4 max threads
 ### false mutex
 
+ A is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
@@ -1357,37 +1362,29 @@ Standard exception cannot create std::vector larger than max_size()
  B is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
 ### true mutex
 
  B is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
- A is my name yes it is oh yes it is 
- C is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
- B is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
- D is my name yes it is oh yes it is 
  B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
  C is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
  A is my name yes it is oh yes it is 
  D is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
+ A is my name yes it is oh yes it is 
+ B is my name yes it is oh yes it is 
+ D is my name yes it is oh yes it is 
+ C is my name yes it is oh yes it is 
 ```
 ```
-```
-```
-0
 ```
 ```
 good() - file doesn't exists
@@ -1427,8 +1424,14 @@ int main() {
 no good() - file does exists
 ```
 ```
+0
 ```
 ```
+```
+```
+```
+```
+(1,0) (0,2)
 ```
 ```
 Implicit constructors
@@ -1436,9 +1439,6 @@ Implicit constructors
 Operator overloading
 ++A
 A++
-```
-```
-(1,0) (0,2)
 ```
 ```
 ctor a
@@ -1452,9 +1452,6 @@ ctor d
 d is a pointer true
 	dtor d
 	dtor a
-```
-```
-0
 ```
 ```
 Hello there
@@ -1476,6 +1473,8 @@ a ctor
 5
 5
 6
+```
+```
 ```
 ```
 3125 Alice's public key
