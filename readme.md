@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Generated Fri Aug 23 13:48:01 BST 2019
-=======
-Generated Fri 23 Aug 13:40:06 BST 2019
->>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
+Generated Fri Aug 23 13:55:05 BST 2019
 # agraph - PASS
 - Build [artefacts](artefacts/agraph)
 - See the source on [GitHub](https://github.com/deanturpin/agraph)
@@ -185,18 +181,10 @@ CPU family:          6
 Model:               85
 Model name:          Intel(R) Xeon(R) CPU @ 2.00GHz
 Stepping:            3
-<<<<<<< HEAD
 CPU MHz:             2000.126
 BogoMIPS:            4000.25
 Hypervisor vendor:   KVM
 Virtualization type: full
-=======
-CPU MHz:             2021.529
-CPU max MHz:         2200.0000
-CPU min MHz:         400.0000
-BogoMIPS:            3024.00
-Virtualisation:      VT-x
->>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 L1d cache:           32K
 L1i cache:           32K
 L2 cache:            256K

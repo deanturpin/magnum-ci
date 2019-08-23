@@ -1,30 +1,18 @@
 strict graph {
 fontname=helvetica
 node [shape=rect style="filled,rounded" color=white fillcolor=lightgrey fontname=helvetica]
-<<<<<<< HEAD
 soy_yo [label="magnum-ci"]
-graph [label="./hosts2dot.sh - Fri Aug 23 13:48:44 BST 2019" labelloc=top labeljust=left]
+graph [label="./hosts2dot.sh - Fri Aug 23 13:55:40 BST 2019" labelloc=top labeljust=left]
 "127.0.0.1 localhost # for local people" [fillcolor=red fontcolor=white]
-=======
-soy_yo [label="laptop"]
-graph [label="./hosts2dot.sh - Fri 23 Aug 13:41:49 BST 2019" labelloc=top labeljust=left]
-"127.0.0.1 localhost # for local people" [fillcolor=green fontcolor=white]
->>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 soy_yo--"localhost"--"127.0.0.1 localhost # for local people"
 "rate.sx # Command line crypto ticker" [fillcolor=red fontcolor=white]
 soy_yo--"ex9k1.dc7.fsn1.hetzner.com"--"ex9k1.dc7.fsn1.hetzner.com"--"b6.xgu.ru"--"cheat.sh"--"rate.sx # Command line crypto ticker"
 "fixer.io # Fiat currencies" [fillcolor=red fontcolor=white]
-soy_yo--"ae7.cbs02.eq01.chi01.networklayer.com"--"ae0.cbs02.cs01.den01.networklayer.com"--"ae1.cbs01.eq01.sjc02.networklayer.com"--"ae23.bbr01.eq01.sjc02.networklayer.com"--"ae6.dar02.sjc01.networklayer.com"--"9f.76.1732.ip4.static.sl-reverse.com"--"c9.a7.559e.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
+soy_yo--"ae0.cbs01.tg01.lon01.networklayer.com"--"ae0.cbs01.tg01.lon01.networklayer.com"--"ae1.cbs02.tl01.nyc01.networklayer.com"--"ae0.cbs01.eq01.chi01.networklayer.com"--"ae7.cbs02.eq01.chi01.networklayer.com"--"ae0.cbs02.cs01.den01.networklayer.com"--"ae1.cbs01.eq01.sjc02.networklayer.com"--"ae23.bbr01.eq01.sjc02.networklayer.com"--"ae6.dar01.sjc01.networklayer.com"--"po1.fcr02.sr02.sjc01.networklayer.com"--"c9.a7.559e.ip4.static.sl-reverse.com"--"fixer.io # Fiat currencies"
 "turpin.dev # My website" [fillcolor=red fontcolor=white]
-<<<<<<< HEAD
-soy_yo--"209.85.247.5"--"72.14.232.70"--"216.239.50.159"--"209.85.242.21"--"turpin.dev # My website"
+soy_yo--"209.85.247.5"--"209.85.143.103"--"172.253.64.209"--"turpin.dev # My website"
 "brignull.com # Harry's website" [fillcolor=red fontcolor=white]
 soy_yo--"brignull.com # Harry's website"
-=======
-soy_yo--"2a01:4c8:43f:b8a5:a419:11bc:c6cd:6b2a"--"2a01:4c8:43f:b8a5:a419:11bc:c6cd:6b2a"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--"2a01:4c8:f800:c06::2"--"turpin.dev # My website"
-"brignull.com # Harry's website" [fillcolor=green fontcolor=white]
-soy_yo--"2a01:4c8:43f:b8a5:a419:11bc:c6cd:6b2a"--"2a01:4c8:43f:b8a5:a419:11bc:c6cd:6b2a"--"2a01:4c8:f800:c38::"--"2a01:4c8:f800:c4b::3"--"2a01:4c8:f800:c06::2"--"brignull.com # Harry's website"
->>>>>>> 03ad0855428ecee1799ec6b353362c7318514e77
 "7thsensedesign.com" [fillcolor=red fontcolor=white]
 soy_yo--"ae0.cr-merak.lon5.bb.godaddy.com"--"ae0.cr-merak.lon5.bb.godaddy.com"--"ae1.dr-master.ld5.core.webfusion.com"--"62.138.48.34"--"ldc5-ldc4.core.webfusion.com"--"ds8722.dedicated.turbodns.co.uk"--"7thsensedesign.com"
 }
