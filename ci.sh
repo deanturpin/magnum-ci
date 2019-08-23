@@ -42,7 +42,7 @@ for repo in ${repos[@]}; do
 	make >&2 && echo "PASS" || echo "FAIL"
 
 	# Lint
-	cppcheck --enable=all . 1>/dev/null 2>cppcheck.txt
+	cppcheck --enable=all . 1>/dev/null 2| tee cppcheck.txt
 
 	# Get build artefacts
 	echo Get artefacts from $subdir >&2
